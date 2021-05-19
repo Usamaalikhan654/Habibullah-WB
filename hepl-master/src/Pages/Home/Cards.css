@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+/*.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  background-color: #f1f1f1;
+  margin: 0 0 0 8px;
+  padding: 60px;
+
+}*/
+
+
+
+.heading1 {
+
+  color: #2E307B;
+
+
+}
+.heading2 {
+
+  padding: 10px;
+  color: #2E307B;
+
+}
+
+.border {
+
+/* Vector 8 */
+
+position: absolute;
+
+width: 110px;
+border: 1px solid #2E307B;
+
+}
+
+.border1 {
+  /* Vector 6 */
+
+
+position: absolute;
+width: 110px;
+margin: 10px;
+
+border: 1px solid #2E307B;
+}
+
+.border2 {
+  
+position: absolute;
+width: 110px;
+margin: 10px;
+
+border: 1px solid #2E307B;
+}
+
+.border3 {
+  
+position: absolute;
+width: 110px;
+margin: 10px;
+
+border: 1px solid #2E307B;
+}
+
+.Card1 {
+
+  /* Rectangle 89 */
+
+
+  position: absolute;
+  width: 385px;
+  height: 463px;
+  left: 147px;
+  top: 1409px;
+  padding: 35px;
+  margin-left: 60px;
+  
+  background: #FFFFFF;
+
+}
+
+.Card2 {
+
+  /* Rectangle 90 */
+
+
+position: absolute;
+width: 385px;
+height: 463px;
+left: 561px;
+top: 1409px;
+padding: 25px;
+margin-left: 60px;
+background: #FFFFFF;
+}
+
+
+.Card3 {
+  /* Rectangle 91 */
+
+
+position: absolute;
+width: 385px;
+height: 463px;
+left: 975px;
+top: 1409px;
+padding: 30px;
+margin-left: 60px;
+background: #FFFFFF;
+}
+
+.Card4 {
+  /* Rectangle 92 */
+position: absolute;
+width: 384px;
+height: 463px;
+left: 1389px;
+top: 1409px;
+padding: 30px;
+margin-left: 60px;
+background: #FFFFFF;
+}
+
+.heading3 {
+
+  padding: 10px;
+color: #2E307B;
+
+
+}
+
+.heading4 {
+  padding: 15px;
+  color: #2E307B;
+  
+  
+  }
+
+
+
+  @media screen and (max-width: 320px) {
+    .Card1 {
+
+      /* Rectangle 89 */
+    
+      
+      position: absolute;
+      width: 320px;
+      height: 400px;
+      left: 147px;
+      top: 1409px;
+      font-size: 5vw;
+      
+      background: #FFFFFF;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 320px) {
+    .heading1 {
+
+      color: #2E307B;
+      font-size: 5vw;
+    
+    }
+  }
+
+
+
+  @media screen and (max-width: 320px) {
+    .Card2 {
+
+      /* Rectangle 90 */
+    
+    
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    margin-top: 460px;
+    left: 150px;
+    font-size: 5vw;
+    background: #FFFFFF;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 320px) {
+  .heading2 {
+
+    padding: 10px;
+    color: #2E307B;
+    font-size: 5vw;
+  }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+.Card3 {
+  /* Rectangle 91 */
+
+
+position: absolute;
+width: 320px;
+height: 400px;
+margin-top: 900px;
+left: 150px;
+font-size: 5vw;
+background: #FFFFFF;
+}
+}
+
+
+@media screen and (max-width: 320px) {
+.heading3 {
+
+  padding: 10px;
+color: #2E307B;
+font-size: 5vw;
+
+}
+}
+
+
+@media screen and (max-width: 320px) {
+  .Card4 {
+    /* Rectangle 92 */
+  position: absolute;
+  width: 320px;
+  height: 400px;
+  margin-top: 1400px;
+  left: 150px;
+  background: #FFFFFF;
+  }
+}

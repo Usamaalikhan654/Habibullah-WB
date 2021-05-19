@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .col-1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .jar {
+    position: absolute;
+    width: 2015px;
+    height: 1144px;
+    left: 0px;
+    top: 156px;
+    margin-top: 900px;
+    background: #EDEDED;
+  }
+
+  .colhead {
+    position: absolute;
+    width: 747px;
+    height: 125px;
+    left: 150px;
+    top:70px;
+    
+    font-family: Futura-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    color: #2E307B;
+  }
+
+.colpara {
+
+    position: absolute;
+width: 1647px;
+height: 425px;
+left: 154px;
+top: 20px;
+
+font-family: Futura Bk BT;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+  }
+
+.col-list {
+ 
+ margin-top: 90px;
+ margin-left: 30px;
+ font-size: 20px;
+line-height: 24px;
+color: #000000;
+letter-spacing: 0.06em;
+font-family: Futura Bk BT;
+
+}
+
+.col-img {
+position: absolute;
+width: 465px;
+height: 482px;
+left: 1431px;
+top: 220px;
+margin-left: 60px;
+
+
+}
+
+.col-img1 {
+position: absolute;
+width: 168px;
+height: 158px;
+left: 1284px;
+top: 220px;
+margin-left: 20px;
+}
+
+.col-img2 {
+position: absolute;
+width: 168px;
+height: 157px;
+left: 1284px;
+top: 400px;
+margin-left: 20px;
+}
+
+.col-img3 {
+position: absolute;
+width: 165px;
+height: 155px;
+left: 1287px;
+top: 580px;
+margin-left: 20px;
+}
