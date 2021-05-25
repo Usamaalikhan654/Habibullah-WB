@@ -9,7 +9,7 @@ import Contact from "./Pages/Contact Us/Contact";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={'/Habibullah-WB'}>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/About" component={About}/>
