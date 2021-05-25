@@ -1,6 +1,6 @@
 {
   "name": "hepl",
-  "homepage": "https://usamaalikhan654.github.io/hepl/",
+  "homepage": "https://usamaalikhan654.github.io/Habibullah-WB/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,8 +17,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "react-split-pane": "^0.1.92",
-    "web-vitals": "^1.0.1",
-    "yarn": "^1.22.10"
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
