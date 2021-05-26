@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch , Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch , Redirect } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import "./config/styles.scss";
 import About from "./Pages/About Us/About";
