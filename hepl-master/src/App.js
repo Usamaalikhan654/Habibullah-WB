@@ -16,7 +16,7 @@ export default function App() {
         <Route exact path="/Product" component={Product}/>
         <Route exact path="/Machine" component={Machine}/>
         <Route exact path="/Contact" component={Contact}/>
-        <Redirect to="/"/>
+        
       </Switch>
     </Router>
   );
