@@ -44,9 +44,9 @@ function Header() {
           <div className={styles.menuContainerBox}>
             <a href="/"><p className={styles.menuItem}>HOME</p></a>
             <a href="/about"><p className={styles.menuItem}>ABOUT US</p></a>
-            <a href="/Product"><p className={styles.menuItem}>PRODUCT LINE</p></a>
-            <a href="/Machine"><p className={styles.menuItem}>MACHINERY AND TOOLS</p></a>
-            <a href="/Contact"><p className={styles.menuItem}>CONTACT US</p></a>
+            <a href="/product"><p className={styles.menuItem}>PRODUCT LINE</p></a>
+            <a href="/machine"><p className={styles.menuItem}>MACHINERY AND TOOLS</p></a>
+            <a href="/contact"><p className={styles.menuItem}>CONTACT US</p></a>
           </div>
         </div>
       </div>

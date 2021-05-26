@@ -9,15 +9,14 @@ import Contact from "./Pages/Contact Us/Contact";
 
 export default function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/About" component={About}/>
-        <Route exact path="/Product" component={Product}/>
-        <Route exact path="/Machine" component={Machine}/>
-        <Route exact path="/Contact" component={Contact}/>
-        
-      </Switch>
-    </HashRouter>
+    <HashRouter >
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/product" component={Product} />
+      <Route exact path="/machine" component={Machine} />
+      <Route exact path="/contact" component={Contact} />
+    </Switch>
+  </HashRouter>
   );
 }
