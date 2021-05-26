@@ -12,7 +12,7 @@ export default function App() {
     <HashRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/About" component={About}/>
+        <Route exact path="/" component={About}/>
         <Route exact path="/Product" component={Product}/>
         <Route exact path="/Machine" component={Machine}/>
         <Route exact path="/Contact" component={Contact}/>
