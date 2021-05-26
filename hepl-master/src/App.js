@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch , Redirect } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import "./config/styles.scss";
 import About from "./Pages/About Us/About";
@@ -16,6 +16,7 @@ export default function App() {
         <Route exact path="/Product" component={Product}/>
         <Route exact path="/Machine" component={Machine}/>
         <Route exact path="/Contact" component={Contact}/>
+        <Redirect to="/"/>
       </Switch>
     </Router>
   );
