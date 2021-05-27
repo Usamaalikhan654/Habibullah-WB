@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Habibullah-WB/static/css/main.a6ca8477.chunk.css",
+    "main.css": "/Habibullah-WB/static/css/main.f640f8e9.chunk.css",
     "main.js": "/Habibullah-WB/static/js/main.c6ef2dd9.chunk.js",
     "main.js.map": "/Habibullah-WB/static/js/main.c6ef2dd9.chunk.js.map",
     "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.21f89423.js",
@@ -10,7 +10,7 @@
     "static/js/3.41c9c482.chunk.js": "/Habibullah-WB/static/js/3.41c9c482.chunk.js",
     "static/js/3.41c9c482.chunk.js.map": "/Habibullah-WB/static/js/3.41c9c482.chunk.js.map",
     "index.html": "/Habibullah-WB/index.html",
-    "static/css/main.a6ca8477.chunk.css.map": "/Habibullah-WB/static/css/main.a6ca8477.chunk.css.map",
+    "static/css/main.f640f8e9.chunk.css.map": "/Habibullah-WB/static/css/main.f640f8e9.chunk.css.map",
     "static/js/2.dc252f7e.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.dc252f7e.chunk.js.LICENSE.txt",
     "static/media/HEPL Website_organized.d8e0a597.pdf": "/Habibullah-WB/static/media/HEPL Website_organized.d8e0a597.pdf",
     "static/media/HEPLPROFILE final-19.97867d4b.jpg": "/Habibullah-WB/static/media/HEPLPROFILE final-19.97867d4b.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.21f89423.js",
     "static/js/2.dc252f7e.chunk.js",
-    "static/css/main.a6ca8477.chunk.css",
+    "static/css/main.f640f8e9.chunk.css",
     "static/js/main.c6ef2dd9.chunk.js"
   ]
 }
