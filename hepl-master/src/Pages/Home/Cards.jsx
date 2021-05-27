@@ -9,7 +9,7 @@ function Cards() {
 
  return (
 <div className="container2">
-<div className="row">
+<div className="row" className="core-features">
   <div className="column">
     <div className="Card1"> 
     <img src={img}/>

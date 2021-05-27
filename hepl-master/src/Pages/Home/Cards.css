@@ -103,10 +103,10 @@ border: 1px solid #2E307B;
 
 .Card1 {
 
-  /* Rectangle 89 */
+  /* Rectangle 89 
 
 
-  position: absolute;
+    /*position: absolute;*/
   width: 385px;
   height: 463px;
   left: 147px;
@@ -123,7 +123,7 @@ border: 1px solid #2E307B;
   /* Rectangle 90 */
 
 
-position: absolute;
+ /*position: absolute;*/
 width: 385px;
 height: 463px;
 left: 561px;
@@ -137,8 +137,7 @@ background: #FFFFFF;
 .Card3 {
   /* Rectangle 91 */
 
-
-position: absolute;
+ /*position: absolute;*/
 width: 385px;
 height: 463px;
 left: 975px;
@@ -150,7 +149,7 @@ background: #FFFFFF;
 
 .Card4 {
   /* Rectangle 92 */
-position: absolute;
+ /*position: absolute;*/
 width: 384px;
 height: 463px;
 left: 1389px;
