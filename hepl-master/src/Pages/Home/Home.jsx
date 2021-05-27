@@ -33,7 +33,7 @@ const Home = () => {
       {/* core feature ends */}
 
       {/* card feature starts */}
-      <div className={styles.Container}>
+      <div className={styles.coreContainer}>
           <Cards/>
       </div>
       {/* card feature ends */}
