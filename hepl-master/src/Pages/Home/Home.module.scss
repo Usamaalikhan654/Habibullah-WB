@@ -187,6 +187,10 @@ margin-top: 300px;
 
 .Container {
 
+  padding: 2rem;
   background-color: #ededed;
-
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
