@@ -106,11 +106,12 @@ border: 1px solid #2E307B;
   /* Rectangle 89 
 
 
-    /*position: absolute;*/
+    /*position: absolute;
+
+  left: 147px;
+  top: 1409px;*/
   width: 385px;
   height: 463px;
-  left: 147px;
-  top: 1409px;
   padding: 35px;
   margin-left: 60px;
   
@@ -123,11 +124,12 @@ border: 1px solid #2E307B;
   /* Rectangle 90 */
 
 
- /*position: absolute;*/
+ /*position: absolute;
+
+left: 561px;
+top: 1409px;*/
 width: 385px;
 height: 463px;
-left: 561px;
-top: 1409px;
 padding: 25px;
 margin-left: 60px;
 background: #FFFFFF;
@@ -137,11 +139,12 @@ background: #FFFFFF;
 .Card3 {
   /* Rectangle 91 */
 
- /*position: absolute;*/
+ /*position: absolute;
+
+left: 975px;
+top: 1409px;*/
 width: 385px;
 height: 463px;
-left: 975px;
-top: 1409px;
 padding: 30px;
 margin-left: 60px;
 background: #FFFFFF;
@@ -149,11 +152,12 @@ background: #FFFFFF;
 
 .Card4 {
   /* Rectangle 92 */
- /*position: absolute;*/
+ /*position: absolute;
+
+left: 1389px;
+top: 1409px;*/
 width: 384px;
 height: 463px;
-left: 1389px;
-top: 1409px;
 padding: 30px;
 margin-left: 60px;
 background: #FFFFFF;
