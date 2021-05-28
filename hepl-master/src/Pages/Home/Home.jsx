@@ -50,10 +50,12 @@ const Home = () => {
     </div>
    {/* Input Fields Starts */}
   
-   <p>
-   <div className={styles.Border}></div> 
+   <div className={styles.Input1}>
+   <div className={styles.Border}></div>
+   <div className={styles.Flexinner}>
      <span className={styles.para}>Privacy Policy</span> <span className={styles.phot}><img src={photo}/></span> <span className={styles.span}>Terms & Conditions</span>
-   </p>
+   </div>
+   </div>
   
 </Container>
  </div>  

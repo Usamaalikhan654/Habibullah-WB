@@ -86,10 +86,11 @@
 }
 
 .Border {
-  width: 1200px;
+
+  width: 90%;
   height: 2px;
   background-color: #000;
-  margin-left: 360px;
+  margin: 37px auto 12px;
 
 }
 
@@ -97,7 +98,7 @@
 /* Terms & Conditions */
 
 
-position: absolute;
+// position: absolute;
 width: 215px;
 height: 24px;
 left: 1035px;
@@ -110,7 +111,7 @@ font-size: 20px;
 line-height: 24px;
 /* identical to box height */
 
-margin-top: 300px;
+
 color: #000000;
 
 mix-blend-mode: normal;
@@ -120,8 +121,8 @@ mix-blend-mode: normal;
   /* Privacy Policy */
 
 
-position: absolute;
-width: 143px;
+// position: absolute;
+margin-right: 10px;
 height: 24px;
 left: 862px;
 top: 3778px;
@@ -134,7 +135,6 @@ line-height: 24px;
 /* identical to box height */
 
 
-margin-top: 300px;
 color: #000000;
 
 mix-blend-mode: normal;
@@ -145,18 +145,19 @@ mix-blend-mode: normal;
   /* Ellipse 8 */
 
 
-position: absolute;
+// position: absolute;
 width: 14px;
 height: 13px;
 left: 1009px;
 top: 3784px;
-margin-top: 300px;
+margin-top: 5px;
+margin-right: 10px;
 
 }
 
 .container1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 @media (max-width: 320px) {
@@ -185,3 +186,7 @@ margin-top: 300px;
 }
 }
 
+.Flexinner {
+  display: flex;
+  justify-content: center;
+}

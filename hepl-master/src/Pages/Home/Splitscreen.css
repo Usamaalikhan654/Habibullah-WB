@@ -77,7 +77,7 @@ color: #FFFFFF;
 
     width: 100%;
     
-    position: absolute;
+    /* position: absolute; */
     height: 1070px;
     top: 2158px;
     background-image: url("../../Assets/website-21.jpg");
@@ -88,7 +88,7 @@ color: #FFFFFF;
     /* Why Choose Us */
 
 
-position: absolute;
+/* position: absolute; */
 
 padding-top: 170px;
 padding-left: 150px;
@@ -233,4 +233,44 @@ color: #FFFFFF;
     }
 
 
+}
+
+.splitscreen-bg {
+  background-image: url("../../Assets/website-21.jpg");
+  padding: 20%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.visible-mobile {
+  display:none;
+}
+@media(max-width:768px) {
+  .visible-mobile {
+      width: 100%;
+      display:block;
+  }
+  .visible-desk {
+      display: none;
+  }
+}
+
+.contentMobile {
+
+  color: white;
+
+   
+   margin-top: 50px;
+}
+
+.h6 {
+  
+  color: white;
+
+ 
+}
+
+.heading-2 {
+  margin-top: 4000px;
+  color: #7E7E80;
 }
