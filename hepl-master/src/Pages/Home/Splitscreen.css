@@ -237,9 +237,9 @@ color: #FFFFFF;
 
 .splitscreen-bg {
   background-image: url("../../Assets/website-21.jpg");
-  padding: 13%;
+  padding: 20%;
   background-size: cover;
-  background-position: 13%;
+  background-position: center center;
 }
 
 .visible-mobile {
@@ -253,6 +253,19 @@ color: #FFFFFF;
   .visible-desk {
       display: none;
   }
+
+  .splitscreen-bg {
+    background-image: url("../../Assets/website-21.jpg");
+    padding: 13%;
+    background-size: cover;
+    background-position: 13%;
+  }
+
+  .heading-2 {
+    margin-top: 0px;
+   
+  }
+  
 }
 
 .contentMobile {
@@ -271,6 +284,6 @@ color: #FFFFFF;
 }
 
 .heading-2 {
-  
+  margin-top: 4000px;
   color: #7E7E80;
 }
