@@ -237,9 +237,9 @@ color: #FFFFFF;
 
 .splitscreen-bg {
   background-image: url("../../Assets/website-21.jpg");
-  padding: 20%;
+  padding: 13%;
   background-size: cover;
-  background-position: center center;
+  background-position: 13%;
 }
 
 .visible-mobile {
