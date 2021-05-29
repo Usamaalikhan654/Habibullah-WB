@@ -253,19 +253,6 @@ color: #FFFFFF;
   .visible-desk {
       display: none;
   }
-
-  .splitscreen-bg {
-    background-image: url("../../Assets/website-21.jpg");
-    padding: 13%;
-    background-size: cover;
-    background-position: 13%;
-  }
-
-  .heading-2 {
-    margin-top: 0px;
-   
-  }
-  
 }
 
 .contentMobile {
