@@ -164,7 +164,7 @@ color: #FFFFFF;
 }
 
 
- 
+@media screen and (max-width: 1200px) {
   .image {
     /* logo-05 1 */
     /* pexels-tiger-lily-4483610 1 */
@@ -204,10 +204,10 @@ color: #FFFFFF;
      
   }
   
+}
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .head4 {
     /* Delivering Quality Engineered Products. */
     
