@@ -1,15 +1,19 @@
 
+.vision-mission {
+    padding: 0 186px;
+    }
 
+    
 .head5 {
     /* OUR VISION */
 
-
-position: absolute;
-width: 747px;
-height: 43px;
+ 
+/*position: absolute; */
+width: auto;
+height: auto;
 left: 90px;
 top: 205px;
-margin-top: 2200px;
+margin-top: 60px;
 font-family: Futura-Bold;
 font-style: normal;
 font-weight: bold;
@@ -18,18 +22,18 @@ line-height: 46px;
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
-margin-left: 58px;
+margin-left: 0;
 color: #2E307B;
 }
 
 
 .para2 {
-position: absolute;
-width: 1647px;
-height: 98px;
+/* position: absolute; */
+width: auto;
+height: auto;
 left: 151px;
 top: 280px;
-margin-top: 2200px;
+/* margin-top: 2200px; */
 font-family: Futura Bk BT;
 font-style: normal;
 font-weight: normal;
@@ -47,12 +51,12 @@ color: #000000;
     /* OUR MISSION */
 
 
-position: absolute;
-width: 747px;
-height: 43px;
+/* position: absolute; */
+width: auto;
+height: auto;
 left: 150px;
 top: 455px;
-margin-top: 2200px;
+margin-top: 60px;
 font-family: Futura-Bold;
 font-style: normal;
 font-weight: bold;
@@ -67,12 +71,12 @@ color: #2E307B;
 
 
 .para3 {
-position: absolute;
-width: 1647px;
-height: 149px;
+/* position: absolute; */
+width: auto;
+height: auto;
 left: 155px;
 top: 476px;
-margin-top: 2250px;
+/* margin-top: 2250px; */
 font-family: Futura Bk BT;
 font-style: normal;
 font-weight: normal;
@@ -82,4 +86,10 @@ text-align: justify;
 letter-spacing: 0.06em;
 
 color: #000000;
+}
+
+@media (max-width: 768px) {
+    .vision-mission {
+        padding: 0 30px !important;
+        }
 }

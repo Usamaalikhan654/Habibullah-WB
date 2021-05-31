@@ -1,15 +1,19 @@
+.container {
 
+    display: flex;
+    flex-direction: column;
+}
 .h1 {
 
 /* HSE POLICY */
 
 margin-bottom: 50px;
-position: absolute;
-width: 747px;
-height: 125px;
+/* position: absolute; */
+width: auto;
+height: auto;
 left: 150px;
 top: 224px;
-margin-top: 880px;
+margin-top: 150px;
 font-family: Futura-Bold;
 font-style: normal;
 font-weight: bold;
@@ -18,18 +22,18 @@ line-height: 46px;
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
-
+margin-left: 65px;
 color: #2E307B;
 }
 
 
 .p1 {
-    position: absolute;
-width: 1647px;
-height: 780px;
+    /* position: absolute; */
+width: auto;
+height: auto;
 left: 151px;
 top: 295px;
-margin-top: 1000px;
+margin-top: -14px;
 font-family: Futura Bk BT;
 font-style: normal;
 font-weight: normal;
@@ -39,6 +43,30 @@ display: flex;
 align-items: center;
 text-align: justify;
 letter-spacing: 0.06em;
-
+margin-left: 65px;
 color: #000000;
+}
+
+
+.hse-policy {
+    padding: 0 121px;
+}
+
+@media  (max-width: 768px) {
+    .hse-policy {
+        padding: 0 30px 0 !important;
+    }
+
+    .h1 {
+     margin-top: 0;
+    font-size: 26px;
+    margin-left: 0;
+  }
+
+  .p1 {
+
+    margin-left: 0;
+    }
+
+    
 }

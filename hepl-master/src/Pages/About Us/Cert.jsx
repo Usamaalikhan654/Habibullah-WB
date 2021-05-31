@@ -7,7 +7,8 @@ import link1 from "../About Us/HEPLPROFILE final-19.jpg";
 function Cert () {
 
     return (
-        <div>
+        <div className="contain2">
+          <div className="iso-cert">
             <div>
                 <h1 className="head1">ISO CERTIFICATE</h1>
                 <span className="pic"><img src={pic}/></span>
@@ -15,6 +16,7 @@ function Cert () {
 
             <div className="button1">
             <a href={link1} download><span>DOWNLOAD ISO CERTIFICATE</span></a>
+            </div>
             </div>
         </div>
     )

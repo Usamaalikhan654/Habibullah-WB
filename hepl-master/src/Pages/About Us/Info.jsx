@@ -8,8 +8,9 @@ function  Info () {
 
 return (
 
-    <div >
-       <div>
+    <div className="contain1">
+       <div className="vision-mission">
+       <div className="our-vision">
            <h1 className="head5">OUR VISION</h1>
            <p className="para2">To maintain the high standards of professionalism, honesty and commitment with delivering quality engineered products by serving our prestigious clients.<br/><br/>
 
@@ -25,6 +26,7 @@ return (
 
 
                We add value to the business and the society at large through cost-effective engineering and operationally efficient products with integrity, honesty and hard work.</p>
+        </div>
         </div>
     </div>
 

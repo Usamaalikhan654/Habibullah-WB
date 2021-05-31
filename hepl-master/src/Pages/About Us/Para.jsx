@@ -5,6 +5,8 @@ import './Para.css';
 function Para () {
     return (
 <div className="container">
+<div className="hse-policy">
+
      <div className="h1">
          <h1>HSE POLICY</h1>
      </div>
@@ -55,6 +57,7 @@ Environment (HSE) is implemented at our work place along with the execution of a
 
 Everyone who works for HEPL is responsible for adhering to this policy</p>
       </div>
+</div>
 </div>
     )
 }

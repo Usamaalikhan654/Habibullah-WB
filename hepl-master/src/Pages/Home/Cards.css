@@ -17,7 +17,7 @@ body {
 
 /* Remove extra left and right margins, due to padding */
 .row {
-  margin: 0 0px;
+  margin: 0 0px !important;
 }
 
 /* Clear floats after the columns */
