@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Habibullah-WB/static/css/main.86f5ec87.chunk.css",
-    "main.js": "/Habibullah-WB/static/js/main.a99f443f.chunk.js",
-    "main.js.map": "/Habibullah-WB/static/js/main.a99f443f.chunk.js.map",
+    "main.js": "/Habibullah-WB/static/js/main.19de062c.chunk.js",
+    "main.js.map": "/Habibullah-WB/static/js/main.19de062c.chunk.js.map",
     "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.21f89423.js",
     "runtime-main.js.map": "/Habibullah-WB/static/js/runtime-main.21f89423.js.map",
-    "static/js/2.c382b30d.chunk.js": "/Habibullah-WB/static/js/2.c382b30d.chunk.js",
-    "static/js/2.c382b30d.chunk.js.map": "/Habibullah-WB/static/js/2.c382b30d.chunk.js.map",
+    "static/js/2.e92ed5ce.chunk.js": "/Habibullah-WB/static/js/2.e92ed5ce.chunk.js",
+    "static/js/2.e92ed5ce.chunk.js.map": "/Habibullah-WB/static/js/2.e92ed5ce.chunk.js.map",
     "static/js/3.41c9c482.chunk.js": "/Habibullah-WB/static/js/3.41c9c482.chunk.js",
     "static/js/3.41c9c482.chunk.js.map": "/Habibullah-WB/static/js/3.41c9c482.chunk.js.map",
     "index.html": "/Habibullah-WB/index.html",
     "static/css/main.86f5ec87.chunk.css.map": "/Habibullah-WB/static/css/main.86f5ec87.chunk.css.map",
-    "static/js/2.c382b30d.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.c382b30d.chunk.js.LICENSE.txt",
+    "static/js/2.e92ed5ce.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.e92ed5ce.chunk.js.LICENSE.txt",
     "static/media/HEPL Website_organized.d8e0a597.pdf": "/Habibullah-WB/static/media/HEPL Website_organized.d8e0a597.pdf",
     "static/media/HEPLPROFILE final-19.97867d4b.jpg": "/Habibullah-WB/static/media/HEPLPROFILE final-19.97867d4b.jpg",
     "static/media/Rectangle 110.de036780.jpg": "/Habibullah-WB/static/media/Rectangle 110.de036780.jpg",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.21f89423.js",
-    "static/js/2.c382b30d.chunk.js",
+    "static/js/2.e92ed5ce.chunk.js",
     "static/css/main.86f5ec87.chunk.css",
-    "static/js/main.a99f443f.chunk.js"
+    "static/js/main.19de062c.chunk.js"
   ]
 }
