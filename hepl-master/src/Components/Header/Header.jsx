@@ -63,11 +63,11 @@ function Header() {
           <div className={styles.dropDown}>
           
             <div className={styles.dopDownMenuBox}>
-             <p className={styles.dropdownMenuItem}>HOME</p>
+             <Link to="/" className={styles.dropdownMenuItem}>HOME</Link>
             </div>
             
             <div className={styles.dopDownMenuBox}>
-              <p className={styles.dropdownMenuItem}>ABOUT US</p>
+              <Link to="/about" className={styles.dropdownMenuItem}>ABOUT US</Link>
             </div>
             <div className={styles.dopDownMenuBox}>
               <p className={styles.dropdownMenuItem}>PRODUCT LINE</p>
