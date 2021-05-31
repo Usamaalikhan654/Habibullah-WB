@@ -67,7 +67,7 @@ function Header() {
             </div>
             
             <div className={styles.dopDownMenuBox}>
-            <Link to="/about"><p className={styles.dropdownMenuItem}>ABOUT US</p></Link>
+            <a href="/about"><p className={styles.dropdownMenuItem}>ABOUT US</p></a>
             </div>
             <div className={styles.dopDownMenuBox}>
               <p className={styles.dropdownMenuItem}>PRODUCT LINE</p>
