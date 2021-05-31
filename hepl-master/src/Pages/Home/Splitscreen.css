@@ -164,23 +164,8 @@ color: #FFFFFF;
 }
 
 
-@media screen and (max-width: 768px) {
+ 
   .image {
-    /* logo-05 1 */
-    /* pexels-tiger-lily-4483610 1 */
-  
-  
-      width: 1200px;
-      
-      position: absolute;
-      height: 800px;
-  
-      background-image: url("../../Assets/website-21.jpg");
-     
-      align-items: center;
-      margin-bottom: 400px;
-      margin-top: 1000px;
-      margin-right: 300px;
       /* Why Choose Us */
   
   
@@ -204,7 +189,7 @@ color: #FFFFFF;
      
   }
   
-}
+
 
 
 @media screen and (max-width: 768px) {
