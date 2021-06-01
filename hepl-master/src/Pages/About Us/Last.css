@@ -12,14 +12,14 @@
   top: 5px;
   /* margin-top: 4260px; */
   font-family: Futura-Bold;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 
   color: #7e7e80;
   /* margin-left: 920px; */
@@ -59,7 +59,7 @@ margin-left: 920px; */
   width: auto;
   height: auto;
   left: 30%;
-  top: 60%;
+  top: 80%;
   border: 17px solid #fff;
 }
 
@@ -68,7 +68,7 @@ margin-left: 920px; */
   width: auto;
   height: auto;
   left: 47%;
-  top: 68%;
+  top: 92%;
   /* margin-left: 340px;
   margin-top: 4960px; */
 }
@@ -119,7 +119,7 @@ margin-left: 270px; */
   font-family: Futura Bk BT;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 24px;
   display: flex;
   align-items: center;

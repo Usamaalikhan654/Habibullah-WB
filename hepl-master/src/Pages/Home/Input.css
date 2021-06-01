@@ -21,6 +21,7 @@
   font-weight: normal;
   font-size: 21px;
   line-height: 25px;
+  
 
   color: #000000;
   margin-left: 25px;
@@ -64,6 +65,7 @@ top: 3599px; */
   display: flex;
   width: 85%;
   margin: auto;
+  margin-top: 28px;
 }
 
 .column1 {
@@ -80,7 +82,7 @@ top: 3599px; */
   /* height: 60px; */
   left: 790px;
   top: 3602px;
-  margin-top: 95px;
+  margin-top: 142px;
   padding-top: 12px;
   font-family: Futura Md BT;
   font-style: normal;
@@ -114,11 +116,11 @@ top: 3599px; */
   /* height: 24px;
 left: 1428px;
 top: 3410px; */
-  font-family: Futura Hv BT;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
+font-family: Futura Hv BT;
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+line-height: 29px;
   /* padding-top: 25px; */
   color: #2e307b;
   margin-bottom: 5px;
@@ -139,6 +141,12 @@ top: 3410px; */
   /* margin-left: 30px; */
   border: 1px solid transparent;
   padding-left: 20px;
+  font-family: Futura Lt BT;
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
   background: #c4c4c4;
 }
 
@@ -169,7 +177,7 @@ top: 3603px; */
   padding: 20px 27px;
   color: #ffffff;
   mix-blend-mode: normal;
-  margin-top: 90px;
+  margin-top: 134px
 }
 
 .parag1 {
@@ -237,7 +245,14 @@ top: 3694px; */
   /* position: absolute; */
   top: 8px;
   margin-left: 100px;
-  margin: 20px 12px 20px 90px;
+  margin: 20px 12px 20px 47px;
+  padding-left: 0px;
+  font-family: Futura Md BT;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
 }
 
 .column2 {
@@ -255,12 +270,21 @@ top: 3694px; */
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 25px;
   text-align: left;
 
   color: #ffffff;
 
   mix-blend-mode: normal;
+}
+
+.innerLink {
+  font-family: Futura Md BT;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
 }
 
 @media (max-width: 768px) {

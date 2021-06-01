@@ -17,16 +17,16 @@ function Cards() {
       <h3 className="heading1">General Fabrication</h3> 
       <p>
       <ul>
-          <li><b>Designing</b></li>
-          <li><b>Cutting</b></li>
-          <li><b>Bending</b></li>
-          <li><b>Forming</b></li>
-          <li><b>Pressing</b></li>
-          <li><b>Punching</b></li>
-          <li><b>Welding</b></li>
-          <li><b>Assembling</b></li>
-          <li><b>Finishing</b></li>
-          <li><b>Installing</b></li>
+          <li>Designing</li>
+          <li>Cutting</li>
+          <li>Bending</li>
+          <li>Forming</li>
+          <li>Pressing</li>
+          <li>Punching</li>
+          <li>Welding</li>
+          <li>Assembling</li>
+          <li>Finishing</li>
+          <li>Installing</li>
       </ul>
       </p>
     </div>
@@ -39,16 +39,16 @@ function Cards() {
       <h3 className="heading1">Warehouse Shelving</h3> 
       <p>
       <ul>
-          <li><b>Adjustable Shelving </b></li>
-          <li><b>Commercial Grade Shelving</b></li>
-          <li><b>Drive-in Shelving</b></li>
-          <li><b>Heavy Duty Shelving</b></li>
-          <li><b>Industrial Shelving</b></li>
-          <li><b>Light Duty Shelving</b></li>
-          <li><b>Mezzanine Shelving</b></li>
-          <li><b>Narrow Aisle Shelving</b></li>
-          <li><b>Steel Shelving</b></li>
-          <li><b>Warehouse Metal Storage Shelving</b></li>
+          <li>Adjustable Shelving</li>
+          <li>Commercial Grade Shelving</li>
+          <li>Drive-in Shelving</li>
+          <li>Heavy Duty Shelving</li>
+          <li>Industrial Shelving</li>
+          <li>Light Duty Shelving</li>
+          <li>Mezzanine Shelving</li>
+          <li>Narrow Aisle Shelving</li>
+          <li>Steel Shelving</li>
+          <li>Warehouse Metal Storage Shelving</li>
       </ul>
       </p>
     </div>
@@ -62,11 +62,11 @@ function Cards() {
       <h3 className="heading1">Scaffolding</h3> 
       <p>
       <ul>
-          <li><b>Bushing-type Scaffolding</b></li>
-          <li><b>Pin-type Scaffolding</b></li>
-          <li><b>Pipe-coupling Scaffolding</b></li>
-          <li><b>Mobile Scaffoldings</b></li>
-          <li><b>Multidirectional Scaffolding</b></li>
+          <li>Bushing-type Scaffolding</li>
+          <li>Pin-type Scaffolding</li>
+          <li>Pipe-coupling Scaffolding</li>
+          <li>Mobile Scaffoldings</li>
+          <li>Multidirectional Scaffolding</li>
       </ul>
       </p>
     </div>
@@ -80,11 +80,11 @@ function Cards() {
       <h3 className="heading1">Solar Structure</h3> 
       <p>
       <ul>
-          <li><b>Fixed Solar Structure</b></li>
-          <li><b>Movable Solar Structure</b></li>
-          <li><b>Adjustable Solar Structure</b></li>
-          <li><b>Single Panel Structure</b></li>
-          <li><b>Multiple Panel Structure</b></li>
+          <li>Fixed Solar Structure</li>
+          <li>Movable Solar Structure</li>
+          <li>Adjustable Solar Structure</li>
+          <li>Single Panel Structure</li>
+          <li>Multiple Panel Structure</li>
       </ul>
       </p>
     </div>

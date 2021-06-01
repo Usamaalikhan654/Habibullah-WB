@@ -22,6 +22,8 @@ line-height: 46px;
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
+
+color: #2E307B;
 margin-left: 65px;
 color: #2E307B;
 }
@@ -37,7 +39,7 @@ margin-top: -14px;
 font-family: Futura Bk BT;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 23px;
 line-height: 24px;
 display: flex;
 align-items: center;

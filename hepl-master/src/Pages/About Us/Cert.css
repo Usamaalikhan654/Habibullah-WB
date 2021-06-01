@@ -45,11 +45,15 @@ margin-right: 50px; */
   /* width: 350px; */
   /* height: 70px; */
 
-  font-family: Futura Md BT;
+  font-family: Futura-Bold;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 29px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-align: center;
   padding-top: 0;
   margin-top: 20px;

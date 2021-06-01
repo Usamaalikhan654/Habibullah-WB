@@ -5,7 +5,6 @@ import messsageIcon from "../../Assets/messageIcon.png";
 import callIcon from "../../Assets/callIcon.png";
 import searchIcon from "../../Assets/searchIcon.png";
 import menuIcon from "../../Assets/menu.png";
-import { Link } from "react-router-dom";
 
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -43,11 +42,11 @@ function Header() {
       <div className={styles.menuContainer}>
         <div className={styles.menuBox}>
           <div className={styles.menuContainerBox}>
-            <Link to="/"><p className={styles.menuItem}>HOME</p></Link>
-            <Link to="/about"><p className={styles.menuItem}>ABOUT US</p></Link>
-            <Link to="/Product"><p className={styles.menuItem}>PRODUCT LINE</p></Link>
-            <Link to="/Machine"><p className={styles.menuItem}>MACHINERY AND TOOLS</p></Link>
-            <Link to="/Contact"><p className={styles.menuItem}>CONTACT US</p></Link>
+            <a href="/"><p className={styles.menuItem}>HOME</p></a>
+            <a href="/about"><p className={styles.menuItem}>ABOUT US</p></a>
+            <a href="/Product"><p className={styles.menuItem}>PRODUCT LINE</p></a>
+            <a href="/Machine"><p className={styles.menuItem}>MACHINERY AND TOOLS</p></a>
+            <a href="/Contact"><p className={styles.menuItem}>CONTACT US</p></a>
           </div>
         </div>
       </div>
@@ -63,20 +62,20 @@ function Header() {
           <div className={styles.dropDown}>
           
             <div className={styles.dopDownMenuBox}>
-             <Link to="/"><p className={styles.dropdownMenuItem}>HOME</p></Link>
+             <p className={styles.dropdownMenuItem}>HOME</p>
             </div>
             
             <div className={styles.dopDownMenuBox}>
-            <Link to="/about"><p className={styles.dropdownMenuItem}>ABOUT US</p></Link>
+              <p className={styles.dropdownMenuItem}>ABOUT US</p>
             </div>
             <div className={styles.dopDownMenuBox}>
-            <Link to="/Product"><p className={styles.dropdownMenuItem}>PRODUCT LINE</p></Link>
+              <p className={styles.dropdownMenuItem}>PRODUCT LINE</p>
             </div>
             <div className={styles.dopDownMenuBox}>
-            <Link to="/Machine"><p className={styles.dropdownMenuItem}>MACHINERY AND TOOLS</p></Link>
+              <p className={styles.dropdownMenuItem}>MACHINERY AND TOOLS</p>
             </div>
             <div className={styles.dopDownMenuBox}>
-            <Link to="Contact"><p className={styles.dropdownMenuItem}>CONTACT US</p></Link>
+              <p className={styles.dropdownMenuItem}>CONTACT US</p>
             </div>
           </div>
         ) : null}
