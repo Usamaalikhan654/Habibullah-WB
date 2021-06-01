@@ -1,16 +1,16 @@
 import React from 'react';
 import "./Col.css";
-import colimg from "../../Assets/website-06\ 1.jpg";
-import colimg1 from "../../Assets/website-07\ 1.jpg";
-import colimg2 from "../../Assets/website-08\ 2.jpg";
-import colimg3 from "../../Assets/website-09\ 1.jpg";
+import colimg from "../../Assets/website-06\ 1.png";
+import colimg1 from "../../Assets/website-07\ 1.png";
+import colimg2 from "../../Assets/website-08\ 2.png";
+import colimg3 from "../../Assets/website-09\ 1.png";
 
 function Col () {
    return (
     <div className="jar"> 
     <div className="row">
-    <h2 className="colhead">MACHINERY AND TOOLS</h2>
     <div className="col-1">
+    <h2 className="colhead">MACHINERY AND TOOLS</h2>
       <p className="colpara">Below is a list of machinery and tools available for sheet metal work & Fabrication:</p>
       <ul className="col-list">
           <li>15-Ton Power Press</li>
@@ -29,12 +29,15 @@ function Col () {
           <li>Vertical Milling Machine</li>
       </ul>
     </div>
-    <div className="col-1">
-        <span className="col-img"><img src={colimg} style={{height: "515px"}}/></span>
-
-        <span className="col-img1"><img src={colimg1}/></span>
+    <div className="col-1-1">
+ 
+       <div className="col-pics">
+         <span className="col-img1"><img src={colimg1}/></span>
         <span className="col-img2"><img src={colimg2}/></span>
         <span className="col-img3"><img src={colimg3}/></span>
+       </div>
+
+        <span className="col-img"><img src={colimg} style={{height: "100%"}}/></span>
     </div>
   </div>
   </div>  

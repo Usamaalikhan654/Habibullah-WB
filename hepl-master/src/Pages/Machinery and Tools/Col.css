@@ -1,120 +1,175 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that floats next to each other */
-  .col-1 {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-    margin-top: 200px;
-    margin-left: 100px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  box-sizing: border-box;
+}
 
-  .jar {
-    position: absolute;
-    width: 2015px;
-    height: 1144px;
-    left: 0px;
-    top: 156px;
-    margin-top: 900px;
-    background: #EDEDED;
-  }
+/* Create two equal columns that floats next to each other */
+.col-1 {
+  /* float: left; */
+  width: 50%;
+  padding: 10px;
+  /* height: 300px; Should be removed. Only for demonstration */
+  /* margin-top: 200px;
+    margin-left: 100px; */
+}
 
-  .colhead {
-    position: absolute;
-    width: 747px;
-    height: 125px;
-    left: 150px;
-    top:70px;
-    
-    font-family: Futura-Bold;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 46px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    
-    color: #2E307B;
-  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.jar {
+  /* position: absolute;
+    width: 2015px; */
+  height: 100%;
+  left: 0px;
+  top: 156px;
+  padding: 82px 24px 150px 10%;
+  /* margin-top: 900px; */
+  background: #ededed;
+}
+
+.colhead {
+  /* position: absolute; */
+  /* width: 747px;
+    height: 125px; */
+  left: 150px;
+  top: 70px;
+
+  font-family: Futura-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  color: #2e307b;
+}
 
 .colpara {
+  /* position: absolute; */
+  /* width: 1647px;
+height: 425px; */
+  left: 154px;
+  top: 20px;
 
-    position: absolute;
-width: 1647px;
-height: 425px;
-left: 154px;
-top: 20px;
+  font-family: Futura Bk BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
 
-font-family: Futura Bk BT;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-
-color: #000000;
-
-  }
+  color: #000000;
+}
 
 .col-list {
- 
- margin-top: 90px;
- margin-left: 30px;
- font-size: 20px;
-line-height: 24px;
-color: #000000;
-letter-spacing: 0.06em;
-font-family: Futura Bk BT;
-
+  margin-top: 90px;
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 0.06em;
+  font-family: Futura Bk BT;
 }
 
 .col-img {
-position: absolute;
-width: 465px;
-height: 482px;
-left: 1431px;
-top: 220px;
-margin-left: 60px;
-
-
+  /* position: absolute; */
+  /* width: 465px; */
+  height: 482px;
+  left: 1431px;
+  top: 220px;
+  margin-left: 0px;
 }
 
 .col-img1 {
-position: absolute;
-width: 168px;
-height: 158px;
-left: 1284px;
-top: 220px;
-margin-left: 20px;
+  /* position: absolute; */
+  /* width: 168px;
+height: 158px; */
+  left: 1284px;
+  top: 220px;
+  margin-left: 20px;
 }
 
 .col-img2 {
-position: absolute;
-width: 168px;
-height: 157px;
-left: 1284px;
-top: 400px;
-margin-left: 20px;
+  /* position: absolute; */
+  /* width: 168px;
+height: 157px; */
+  left: 1284px;
+  top: 400px;
+  margin-left: 20px;
 }
 
 .col-img3 {
-position: absolute;
-width: 165px;
-height: 155px;
-left: 1287px;
-top: 580px;
-margin-left: 20px;
+  /* position: absolute; */
+  /* width: 165px;
+height: 155px; */
+  left: 1287px;
+  top: 580px;
+  margin-left: 20px;
+}
+
+.col-1-1 {
+  display: flex;
+}
+
+.col-pics {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+@media (max-width: 768px) {
+  .jar {
+    padding: 0;
+  }
+
+  .col-1 {
+    padding: 30px;
+    width: auto;
+  }
+
+  .colpara {
+    width: auto;
+  }
+
+  .col-list {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .col-1-1 {
+    flex-direction: column-reverse;
+  }
+
+  .col-img img{
+    height: auto !important;
+    max-width: 100%;
+  }
+
+  .col-pics {
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .col-img1 img {
+    width: 25vw;
+  }
+
+  .col-img2 img {
+    width: 26vw;
+  }
+
+  .col-img3 img {
+    width: 25vw;
+  }
+
+  .col-img {
+    height: auto;
+  }
 }
