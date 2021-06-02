@@ -38,13 +38,13 @@ function Cards() {
       <h3 className="heading1">Aluminum Filter</h3> 
       <p>
       <ul>
-          <li><b>Armoured Mesh Filter</b></li>
-          <li><b>Custom Filter Of Any Type & Size</b></li>
-          <li><b> Grease Filter</b></li>
-          <li><b>HVAC Filter</b></li>
-          <li><b> Medium & Heavy-Duty Metal Filter</b></li>
-          <li><b>Reusable Filter</b></li>
-          <li><b>Washable Filter</b></li>
+          <li>Armoured Mesh Filter</li>
+          <li>Custom Filter Of Any Type & Size</li>
+          <li>Grease Filter</li>
+          <li>HVAC Filter</li>
+          <li>Medium & Heavy-Duty Metal Filter</li>
+          <li>Reusable Filter</li>
+          <li>Washable Filter</li>
       </ul>
       </p>
     </div>
@@ -57,18 +57,18 @@ function Cards() {
     <div className="bord1"></div>
       <h3 className="heading2">Bolts,Nuts, Washers and Screws </h3>
       <ul>
-          <li><b>Anchor Bolt</b></li>
-          <li><b>Concrete Screw</b></li>
-          <li><b>Drywall Screw</b></li>
-          <li><b>Foundation Bolt</b></li>
-          <li><b>Hexagon Nut</b></li>
-          <li><b>Lock Washer</b></li>
-          <li><b>Plain Washer</b></li>
-          <li><b>Metric Head Screw</b></li>
-          <li><b>Self-Drilling Screw</b></li>
-          <li><b>Spring Washer</b></li>
-          <li><b>Square Nut</b></li>
-          <li><b>Structural Bolt</b></li>
+          <li>Anchor Bolt</li>
+          <li>Concrete Screw</li>
+          <li>Drywall Screw</li>
+          <li>Foundation Bolt</li>
+          <li>Hexagon Nut</li>
+          <li>Lock Washer</li>
+          <li>Plain Washer</li>
+          <li>Metric Head Screw</li>
+          <li>Self-Drilling Screw</li>
+          <li>Spring Washer</li>
+          <li>Square Nut</li>
+          <li>Structural Bolt</li>
       </ul>
       
     </div>
@@ -81,13 +81,13 @@ function Cards() {
       <h3 className="heading3">Cable Tray</h3>
       <p>
         <ul>
-          <li><b>Cable Tray Supporting System</b></li>
-          <li><b>Cable Tray with Cover</b></li>
-          <li><b>Custom Cable Tray</b></li>
-          <li><b>Hot Dip Galvanized Available</b></li>
-          <li><b>Ladder Cable Tray</b></li>
-          <li><b>Powder Coating Available</b></li>
-          <li><b>Perforated Cable Tray</b></li>
+          <li>Cable Tray Supporting System</li>
+          <li>Cable Tray with Cover</li>
+          <li>Custom Cable Tray</li>
+          <li>Hot Dip Galvanized Available</li>
+          <li>Ladder Cable Tray</li>
+          <li>Powder Coating Available</li>
+          <li>Perforated Cable Tray</li>
         </ul>
       </p>
       
@@ -101,10 +101,10 @@ function Cards() {
       <h3 className="heading4-1">CCTV Pole</h3>
       <p>
         <ul>
-          <li><b>Hot Dip Galvanized CCTV Pole Available</b></li>
-          <li><b>Powder Coated CCTV Camera Pole</b></li>
-          <li><b>Steel Pole</b></li>
-          <li><b>Telescopic Camera Pole</b></li>
+          <li>Hot Dip Galvanized CCTV Pole Available</li>
+          <li>Powder Coated CCTV Camera Pole</li>
+          <li>Steel Pole</li>
+          <li>Telescopic Camera Pole</li>
         </ul>
       </p>
     </div>
@@ -120,12 +120,12 @@ function Cards() {
       <h3 className="heading5">DC Solar Water Pump</h3> 
       <p>
       <ul>
-          <li><b>Lower Operational Cost</b></li>
-          <li><b>Maintenance Free</b></li>
-          <li><b>Zero Electricity Bill</b></li>
-          <li><b>HVAC Filter</b></li>
-          <li><b>Custom Pump Sizes Available</b></li>
-          <li><b>Easy Installation</b></li>
+          <li>Lower Operational Cost</li>
+          <li>Maintenance Free</li>
+          <li>Zero Electricity Bill</li>
+          <li>HVAC Filter</li>
+          <li>Custom Pump Sizes Available</li>
+          <li>Easy Installation</li>
           
       </ul>
       </p>
@@ -139,13 +139,13 @@ function Cards() {
     <div className="bord1"></div>
       <h3 className="heading6">Electrical Panel </h3>
       <ul>
-          <li><b>ATS (Automatic Transfer Switch)</b></li>
-          <li><b>Control Cabinet</b></li>
-          <li><b>Distribution Box</b></li>
-          <li><b>Lighting Distribution Panel</b></li>
-          <li><b>Low Voltage Control Panel</b></li>
-          <li><b>Motor Control Centre </b></li>
-          <li><b>Power Distribution Panel</b></li>
+          <li>ATS (Automatic Transfer Switch)</li>
+          <li>Control Cabinet</li>
+          <li>Distribution Box</li>
+          <li>Lighting Distribution Panel</li>
+          <li>Low Voltage Control Panel</li>
+          <li>Motor Control Centre</li>
+          <li>Power Distribution Panel</li>
          
       </ul>
       
@@ -159,11 +159,11 @@ function Cards() {
       <h3 className="heading7">Fire Bucket</h3>
       <p>
         <ul>
-          <li><b>Available in Different Sizes and<br/>Capacities</b></li>
-          <li><b>Available with Stand</b></li>
-          <li><b>Fire Buckets</b></li>
-          <li><b>Powder Coated</b></li>
-          <li><b>Resistance Against Corrosion</b></li>
+          <li>Available in Different Sizes and<br/>Capacities</li>
+          <li>Available with Stand</li>
+          <li>Fire Buckets</li>
+          <li>Powder Coated</li>
+          <li>Resistance Against Corrosion</li>
           
         </ul>
       </p>
@@ -178,11 +178,11 @@ function Cards() {
       <h3 className="heading8">Fire Pit</h3>
       <p>
         <ul>
-          <li><b>Any depth available</b></li>
-          <li><b>Any size available</b></li>
-          <li><b>Easy to use</b></li>
-          <li><b>Non corrosive</b></li>
-          <li><b>Strong durable material </b></li>
+          <li>Any depth available</li>
+          <li>Any size available</li>
+          <li>Easy to use</li>
+          <li>Non corrosive</li>
+          <li>Strong durable material</li>
         </ul>
       </p>
     </div>
@@ -197,16 +197,16 @@ function Cards() {
       <h3 className="heading9">General Fabrication</h3> 
       <p>
       <ul>
-          <li><b>Designing</b></li>
-          <li><b>Cutting</b></li>
-          <li><b>Bending</b></li>
-          <li><b>Forming</b></li>
-          <li><b>Pressing</b></li>
-          <li><b>Punching</b></li>
-          <li><b>Welding</b></li>
-          <li><b>Assembling</b></li>
-          <li><b>Finishing</b></li>
-          <li><b>Installing</b></li>
+          <li>Designing</li>
+          <li>Cutting</li>
+          <li>Bending</li>
+          <li>Forming</li>
+          <li>Pressing</li>
+          <li>Punching</li>
+          <li>Welding</li>
+          <li>Assembling</li>
+          <li>Finishing</li>
+          <li>Installing</li>
           
       </ul>
       </p>
@@ -220,12 +220,12 @@ function Cards() {
     <div className="bord1"></div>
       <h3 className="heading10">Hot Dip Galvanizing</h3>
       <ul>
-          <li><b>Surface Preparation</b></li>
-          <li><b> Galvanizing</b></li>
-          <li><b>Inspection</b></li>
-          <li><b>Automotive, Construction, Electrical & Mechanical Items</b></li>
-          <li><b>Corrosion Resistance</b></li>
-          <li><b>Long Life</b></li> 
+          <li>Surface Preparation</li>
+          <li>Galvanizing</li>
+          <li>Inspection</li>
+          <li>Automotive, Construction, Electrical & Mechanical Items</li>
+          <li>Corrosion Resistance</li>
+          <li>Long Life</li> 
       </ul>
       
     </div>
@@ -238,13 +238,13 @@ function Cards() {
       <h3 className="heading11">Pallets and Crates</h3>
       <p>
         <ul>
-          <li><b>Cable Reel</b></li>
-          <li><b>Industrial Wooden Packages</b></li>
-          <li><b>Wooden Boxes</b></li>
-          <li><b>Wooden Crates</b></li>
-          <li><b>Wooden Frames</b></li>
-          <li><b>Wooden Pallets</b></li>
-          <li><b>Wooden plywood boxes</b></li>
+          <li>Cable Reel</li>
+          <li>Industrial Wooden Packages</li>
+          <li>Wooden Boxes</li>
+          <li>Wooden Crates</li>
+          <li>Wooden Frames</li>
+          <li>Wooden Pallets</li>
+          <li>Wooden plywood boxes</li>
         </ul>
       </p>
       
@@ -258,12 +258,12 @@ function Cards() {
       <h3 className="heading12">Paint Shop/Powder Coating</h3>
       <p>
         <ul>
-          <li><b>Various Materials, Including Metals,<br/>Plastics, and Medium Density Fiber<br/>board</b></li>
-          <li><b>Wide Range of Colors, Styles, Finishes,<br/>and Textures</b></li>
-          <li><b>Durable Coatings</b></li>
-          <li><b>Less Environmental Impact</b></li>
-          <li><b>Efficient Drying Processes</b></li>
-          <li><b>Greater Material Utilization </b></li>
+          <li>Various Materials, Including Metals,<br/>Plastics, and Medium Density Fiber<br/>board</li>
+          <li>Wide Range of Colors, Styles, Finishes,<br/>and Textures</li>
+          <li>Durable Coatings</li>
+          <li>Less Environmental Impact</li>
+          <li>Efficient Drying Processes</li>
+          <li>Greater Material Utilization</li>
         </ul>
       </p>
     </div>
@@ -279,11 +279,11 @@ function Cards() {
       <h3 className="heading13">Power Transmission Towers</h3> 
       <p>
       <ul>
-          <li><b>Accessibility For Maintenance</b></li>
-          <li><b>Designed To Perfection</b></li>
-          <li><b>Long Life</b></li>
-          <li><b>Lower Maintenance Cost</b></li>
-          <li><b>Power Line Transmission</b></li>  
+          <li>Accessibility For Maintenance</li>
+          <li>Designed To Perfection</li>
+          <li>Long Life</li>
+          <li>Lower Maintenance Cost</li>
+          <li>Power Line Transmission</li>  
       </ul>
       </p>
     </div>
@@ -296,11 +296,11 @@ function Cards() {
     <div className="bord1"></div>
       <h3 className="heading14">Safety Signs</h3>
       <ul>
-          <li><b>Fire Equipment Signs</b></li>
-          <li><b>Mandatory Signs</b></li>
-          <li><b>Prohibition Signs</b></li>
-          <li><b>Safe Condition Signs</b></li>
-          <li><b>Warning Signs</b></li> 
+          <li>Fire Equipment Signs</li>
+          <li>Mandatory Signs</li>
+          <li>Prohibition Signs</li>
+          <li>Safe Condition Signs</li>
+          <li>Warning Signs</li> 
       </ul>
       
     </div>
@@ -313,12 +313,12 @@ function Cards() {
       <h3 className="heading15">Scaffolding</h3>
       <p>
         <ul>
-          <li><b>Bushing-type Scaffolding</b></li>
-          <li><b>Pin-type Scaffolding</b></li>
-          <li><b>Pin-type Scaffolding</b></li>
-          <li><b>Pipe-coupling Scaffolding</b></li>
-          <li><b>Mobile Scaffoldings</b></li>
-          <li><b>Multidirectional Scaffolding</b></li>
+          <li>Bushing-type Scaffolding</li>
+          <li>Pin-type Scaffolding</li>
+          <li>Pin-type Scaffolding</li>
+          <li>Pipe-coupling Scaffolding</li>
+          <li>Mobile Scaffoldings</li>
+          <li>Multidirectional Scaffolding</li>
         </ul>
       </p>
       
@@ -332,11 +332,11 @@ function Cards() {
       <h3 className="heading16">Security Barrier</h3>
       <p>
         <ul>
-          <li><b>Triangular Parking Barrier</b></li>
-          <li><b>Pointed Barrier</b></li>
-          <li><b>Manual Security Barrier</b></li>
-          <li><b>Custom Barriers</b></li>
-          <li><b>RFID Barrier </b></li>
+          <li>Triangular Parking Barrier</li>
+          <li>Pointed Barrier</li>
+          <li>Manual Security Barrier</li>
+          <li>Custom Barriers</li>
+          <li>RFID Barrier</li>
         </ul>
       </p>
     </div>
@@ -351,11 +351,11 @@ function Cards() {
       <h3 className="heading17">Solar Structure</h3> 
       <p>
       <ul>
-          <li><b>Fixed Solar Structure</b></li>
-          <li><b>Movable Solar Structure</b></li>
-          <li><b>Adjustable Solar Structure</b></li>
-          <li><b>Single Panel Structure</b></li>
-          <li><b>Multiple Panel Structure</b></li>
+          <li>Fixed Solar Structure</li>
+          <li>Movable Solar Structure</li>
+          <li>Adjustable Solar Structure</li>
+          <li>Single Panel Structure</li>
+          <li>Multiple Panel Structure</li>
       </ul>
       </p>
     </div>
@@ -368,12 +368,12 @@ function Cards() {
     <div className="bord1"></div>
       <h3 className="heading18">Street Lamps/Poles</h3>
       <ul>
-          <li><b>Easy Accessibility for Maintenance</b></li>
-          <li><b>Economical to Maintain</b></li>
-          <li><b>High Mechanical strength</b></li>
-          <li><b>Light Weight</b></li>
-          <li><b>Longer Life</b></li> 
-          <li><b>Withstand Wind Loads</b></li>
+          <li>Easy Accessibility for Maintenance</li>
+          <li>Economical to Maintain</li>
+          <li>High Mechanical strength</li>
+          <li>Light Weight</li>
+          <li>Longer Life</li> 
+          <li>Withstand Wind Loads</li>
       </ul>
       
     </div>
@@ -386,9 +386,9 @@ function Cards() {
       <h3 className="heading19">Substation Gantries</h3>
       <p>
         <ul>
-          <li><b>220 KV Sub-Station Gantries </b></li>
-          <li><b>132KV Sub-Station Gantries</b></li>
-          <li><b>Steel Support Structures</b></li>
+          <li>220 KV Sub-Station Gantries</li>
+          <li>132KV Sub-Station Gantries</li>
+          <li>Steel Support Structures</li>
         </ul>
       </p>
       
@@ -402,12 +402,12 @@ function Cards() {
       <h3 className="heading20">Telecom Tower</h3>
       <p>
         <ul>
-          <li><b>GSM Antenna Mounts</b></li>
-          <li><b>Guyed Mast Towers</b></li>
-          <li><b>Monopole Towers</b></li>
-          <li><b>Radio Towers</b></li>
-          <li><b>Self Supported Towers</b></li>
-          <li><b>Telecommunications Towers</b></li>
+          <li>GSM Antenna Mounts</li>
+          <li>uyed Mast Towers</li>
+          <li>Monopole Towers</li>
+          <li>Radio Towers</li>
+          <li>Self Supported Towers</li>
+          <li>Telecommunications Towers</li>
         </ul>
       </p>
     </div>
@@ -424,16 +424,16 @@ function Cards() {
       <h3 className="heading21">Warehouse Shelving </h3>
       <p>
         <ul>
-          <li><b>Adjustable Shelving</b></li>
-          <li><b>Commercial Grade Shelving</b></li>
-          <li><b>Drive-in Shelving</b></li>
-          <li><b>Heavy Duty Shelving</b></li>
-          <li><b>Industrial Shelving</b></li>
-          <li><b>Light Duty Shelving</b></li>
-          <li><b>Mezzanine Shelving</b></li>
-          <li><b>Narrow Aisle Shelving</b></li>
-          <li><b>Steel Shelving</b></li>
-          <li><b>Warehouse Metal Storage<br/>Shelving</b></li>
+          <li>Adjustable Shelving</li>
+          <li>Commercial Grade Shelving</li>
+          <li>Drive-in Shelving</li>
+          <li>Heavy Duty Shelving</li>
+          <li>Industrial Shelving</li>
+          <li>Light Duty Shelving</li>
+          <li>Mezzanine Shelving</li>
+          <li>Narrow Aisle Shelving</li>
+          <li>Steel Shelving</li>
+          <li>Warehouse Metal Storage<br/>Shelving</li>
         </ul>
       </p>
     </div>
