@@ -13,7 +13,9 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 15px;
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 
@@ -59,7 +61,7 @@ margin-left: 920px; */
 }
 
 .pic1 {
-  display: flex;
+  /* display: flex; */
 }
 
 .para-contain {
@@ -68,18 +70,18 @@ margin-left: 920px; */
 }
 
 .pic2 {
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 30%;
-  top: 80%;
+  /* position: absolute; */
+  /* width: auto;
+  height: auto; */
+  position: relative;
+  top: 10%;
   border: 17px solid #fff;
 }
 
 .pic3 {
-  position: absolute;
-  width: auto;
-  height: auto;
+  /* position: absolute; */
+  /* width: auto;
+  height: auto; */
   left: 47%;
   top: 92%;
   /* margin-left: 340px;
