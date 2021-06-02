@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Habibullah-WB/static/css/main.579fb934.chunk.css",
-    "main.js": "/Habibullah-WB/static/js/main.45fdb7d9.chunk.js",
-    "main.js.map": "/Habibullah-WB/static/js/main.45fdb7d9.chunk.js.map",
+    "main.css": "/Habibullah-WB/static/css/main.5b6744ab.chunk.css",
+    "main.js": "/Habibullah-WB/static/js/main.0d42a772.chunk.js",
+    "main.js.map": "/Habibullah-WB/static/js/main.0d42a772.chunk.js.map",
     "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.21f89423.js",
     "runtime-main.js.map": "/Habibullah-WB/static/js/runtime-main.21f89423.js.map",
     "static/js/2.e92ed5ce.chunk.js": "/Habibullah-WB/static/js/2.e92ed5ce.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.41c9c482.chunk.js": "/Habibullah-WB/static/js/3.41c9c482.chunk.js",
     "static/js/3.41c9c482.chunk.js.map": "/Habibullah-WB/static/js/3.41c9c482.chunk.js.map",
     "index.html": "/Habibullah-WB/index.html",
-    "static/css/main.579fb934.chunk.css.map": "/Habibullah-WB/static/css/main.579fb934.chunk.css.map",
+    "static/css/main.5b6744ab.chunk.css.map": "/Habibullah-WB/static/css/main.5b6744ab.chunk.css.map",
     "static/js/2.e92ed5ce.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.e92ed5ce.chunk.js.LICENSE.txt",
     "static/media/Header.module.scss": "/Habibullah-WB/static/media/futura_medium_bt.4e762c29.ttf",
     "static/media/HEPL Website_organized.d8e0a597.pdf": "/Habibullah-WB/static/media/HEPL Website_organized.d8e0a597.pdf",
@@ -20,7 +20,7 @@
     "static/media/logo-05 1.d8931c04.jpg": "/Habibullah-WB/static/media/logo-05 1.d8931c04.jpg",
     "static/media/logo.cdc0ac7c.png": "/Habibullah-WB/static/media/logo.cdc0ac7c.png",
     "static/media/pexels-gustavo-fring-4254172 1.681d0aa2.jpg": "/Habibullah-WB/static/media/pexels-gustavo-fring-4254172 1.681d0aa2.jpg",
-    "static/media/pexels-lex-photography-1109541 1.3f213944.jpg": "/Habibullah-WB/static/media/pexels-lex-photography-1109541 1.3f213944.jpg",
+    "static/media/Last.css": "/Habibullah-WB/static/media/pexels-lex-photography-1109541 1.3f213944.jpg",
     "static/media/pexels-tiger-lily-4483610 1.b631142c.jpg": "/Habibullah-WB/static/media/pexels-tiger-lily-4483610 1.b631142c.jpg",
     "static/media/scaffolding-30 1.b1b99441.jpg": "/Habibullah-WB/static/media/scaffolding-30 1.b1b99441.jpg",
     "static/media/warehouse-10 1.f941d732.jpg": "/Habibullah-WB/static/media/warehouse-10 1.f941d732.jpg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.21f89423.js",
     "static/js/2.e92ed5ce.chunk.js",
-    "static/css/main.579fb934.chunk.css",
-    "static/js/main.45fdb7d9.chunk.js"
+    "static/css/main.5b6744ab.chunk.css",
+    "static/js/main.0d42a772.chunk.js"
   ]
 }
