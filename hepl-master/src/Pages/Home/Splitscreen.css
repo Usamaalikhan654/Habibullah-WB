@@ -233,16 +233,15 @@ color: #FFFFFF;
     color: #FFFFFF;
     
     }
-
-
+    .splitscreen-bg {
+      background-image: url("../../Assets/website-21.jpg");
+      padding: 20%;
+      background-size: cover;
+      background-position: 10%;
+    }
 }
 
-.splitscreen-bg {
-  background-image: url("../../Assets/website-21.jpg");
-  padding: 20%;
-  background-size: cover;
-  background-position: 10%;
-}
+
 
 .visible-mobile {
   display:none;
