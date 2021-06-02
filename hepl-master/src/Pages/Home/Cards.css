@@ -11,7 +11,7 @@ body {
 /* Float four columns side by side */
 .column {
   width: 100%;
-  margin: 0 10px;
+
   background-color: white;
 }
 
