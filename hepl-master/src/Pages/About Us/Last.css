@@ -155,14 +155,22 @@ margin-left: 270px; */
     padding: 20px;
     padding-left: 30px;
     margin-bottom: 15%;
+    width: 100%;
+    margin-top: 40px;
   }
 
   .pic2 {
-    left: 7%;
-    top: 75%;
+    /* left: 7%;
+    top: 75%; */
+    padding-top: 65%;
+    margin-bottom: -40px;
     border: 0;
     text-align: center;
 
+  }
+
+  .column4 {
+    max-width: 100%;
   }
 
   .pic1 img{
