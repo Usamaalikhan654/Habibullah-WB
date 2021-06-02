@@ -62,20 +62,20 @@ function Header() {
           <div className={styles.dropDown}>
           
             <div className={styles.dopDownMenuBox}>
-             <p className={styles.dropdownMenuItem}>HOME</p>
+             <Link to="/"><p className={styles.dropdownMenuItem}>HOME</p></Link>
             </div>
             
             <div className={styles.dopDownMenuBox}>
-              <p className={styles.dropdownMenuItem}>ABOUT US</p>
+            <Link to="/about"><p className={styles.dropdownMenuItem}>ABOUT US</p></Link>
             </div>
             <div className={styles.dopDownMenuBox}>
-              <p className={styles.dropdownMenuItem}>PRODUCT LINE</p>
+            <Link to="/Product"><p className={styles.dropdownMenuItem}>PRODUCT LINE</p></Link>
             </div>
             <div className={styles.dopDownMenuBox}>
-              <p className={styles.dropdownMenuItem}>MACHINERY AND TOOLS</p>
+            <Link to="/Machine"><p className={styles.dropdownMenuItem}>MACHINERY AND TOOLS</p></Link>
             </div>
             <div className={styles.dopDownMenuBox}>
-              <p className={styles.dropdownMenuItem}>CONTACT US</p>
+            <Link to="/Contact"><p className={styles.dropdownMenuItem}>CONTACT US</p></Link>
             </div>
           </div>
         ) : null}
