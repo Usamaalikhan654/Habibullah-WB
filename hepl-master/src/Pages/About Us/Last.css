@@ -1,9 +1,22 @@
 /* Create two equal columns that floats next to each other */
 .column3 {
   margin: 0px;
-  padding-left: 32px;
+  width: 50%;
   position: relative;
 }
+
+.column4 {
+  max-width: 50%;
+  width: 100%;
+  background-image: url("../../Assets/pexels-lex-photography-1109541\ 1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+
+}
+
+
 
 .lasthead1 {
   /* ABOUT US */
@@ -130,8 +143,9 @@ margin-left: 270px; */
 }
 
 .contain3 {
-  padding: 0 186px;
+  margin: auto;
   margin-top: 120px;
+ width: 90%;
 }
 
 @media (max-width: 768px) {

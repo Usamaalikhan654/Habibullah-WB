@@ -10,9 +10,9 @@ function Last () {
     return (
       <div className="contain3">
         <div className="row">
-        <div className="column3">
+        <div className="column4">
         <div className="pic1">
-          <img src={pic1}/>
+          
         </div>
            
            <span className="pic2"><img src={pic2}/></span>
