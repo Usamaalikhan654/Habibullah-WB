@@ -26,8 +26,10 @@ function Cards() {
 
  return (
 <>
-<div className="container4">
-<h1 className="cardhead">PRODUCT LINE</h1>
+<div className="card-main">
+  <div className="container4">
+  <h1 className="cardhead">PRODUCT LINE</h1>
+<div className="container-5">
 <div className="row">
   <div className="column4">
     <div className="box1"> 
@@ -108,7 +110,7 @@ function Cards() {
     </div>
   </div>
   </div>
-  </div> 
+  
 
   <div className="row">
   <div className="column4">
@@ -414,8 +416,7 @@ function Cards() {
 
 
   
- 
-
+ <div className="row"></div>
   <div className="column4">
     <div className="box21">
     <img src={imag21}/>
@@ -436,7 +437,12 @@ function Cards() {
         </ul>
       </p>
     </div>
+    </div>
+
+
+    </div> 
   </div>
+</div>
   
     
   </>
