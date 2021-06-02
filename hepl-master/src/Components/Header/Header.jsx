@@ -44,10 +44,10 @@ function Header() {
         <div className={styles.menuBox}>
           <div className={styles.menuContainerBox}>
             <Link to="/"><p className={styles.menuItem}>HOME</p></Link>
-            <a href="/about"><p className={styles.menuItem}>ABOUT US</p></a>
-            <a href="/Product"><p className={styles.menuItem}>PRODUCT LINE</p></a>
-            <a href="/Machine"><p className={styles.menuItem}>MACHINERY AND TOOLS</p></a>
-            <a href="/Contact"><p className={styles.menuItem}>CONTACT US</p></a>
+            <Link to="/about"><p className={styles.menuItem}>ABOUT US</p></Link>
+            <Link to="/Product"><p className={styles.menuItem}>PRODUCT LINE</p></Link>
+            <Link to="/Machine"><p className={styles.menuItem}>MACHINERY AND TOOLS</p></Link>
+            <Link to="/Contact"><p className={styles.menuItem}>CONTACT US</p></Link>
           </div>
         </div>
       </div>
