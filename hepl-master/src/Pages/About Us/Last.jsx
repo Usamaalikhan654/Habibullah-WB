@@ -1,7 +1,7 @@
 import React from 'react';
 import  './Last.css';
 import pic1 from "../../Assets/pexels-lex-photography-1109541\ 1.jpg";
-import pic2 from "../../Assets/pexels-gustavo-fring-4254172\ 1.jpg";
+import pic2 from "../../Assets/Group\ 85.png";
 import pic3 from "../../Assets/Group\ 84.jpg";
 import pic4 from "../../Assets/Rectangle\ 127.jpg";
 
@@ -16,7 +16,7 @@ function Last () {
         </div>
            
            <span className="pic2"><img src={pic2}/></span>
-           <span className="pic3"><img src={pic3}/></span>   
+           
         </div>
         <div className="column3">
           <h2 className="lasthead1">ABOUT US</h2>
