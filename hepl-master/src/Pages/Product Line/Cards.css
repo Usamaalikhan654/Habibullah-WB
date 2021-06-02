@@ -59,6 +59,15 @@ body {
 
 }*/
 
+ul li {
+  font-family: Futura Md BT;
+font-style: normal;
+font-weight: normal;
+font-size: 15.5px;
+line-height: 19px;
+
+}
+
 .heading1 {
   margin-left: 12px;
   color: #2e307b;
