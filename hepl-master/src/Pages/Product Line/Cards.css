@@ -61,16 +61,13 @@ body {
 
 ul li {
   font-family: Futura Md BT;
-font-style: normal;
-font-weight: normal;
-font-size: 15.5px;
-line-height: 19px;
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5px;
+  line-height: 19px;
 }
 
 .heading1 {
-  margin-left: 12px;
-  color: #2e307b;
   font-family: Futura Md BT;
   font-style: normal;
   font-weight: normal;
@@ -80,6 +77,11 @@ line-height: 19px;
 .heading2 {
   padding: 10px;
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .bord {
@@ -166,14 +168,23 @@ line-height: 19px;
 .heading3 {
   padding: 10px;
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading4-1 {
   /* position: absolute; */
   top: 5px;
   /* margin-top: 170px; */
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 
-  line-height: 15px;
   /* identical to box height */
 
   color: #2e307b;
@@ -181,70 +192,155 @@ line-height: 19px;
 
 .heading5 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading6 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading7 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading8 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading9 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading10 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading11 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading12 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading13 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading14 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading15 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading16 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading17 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading18 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading19 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading20 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .heading21 {
   color: #2e307b;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .cardhead {
