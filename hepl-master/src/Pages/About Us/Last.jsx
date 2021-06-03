@@ -10,7 +10,7 @@ function Last () {
     return (
       <div className="contain3">
         <div className="row">
-        <div className="column4">
+        <div className="column4-1">
         <div className="pic1">
           
         </div>
