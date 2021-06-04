@@ -14,6 +14,7 @@ import formpic12 from "../../Assets/website-17.png";
 import formpic13 from "../../Assets/website-18.png";
 import formpic14 from "../../Assets/website-14.png";
 import formpic15 from "../../Assets/website-18.png";
+import emailjs from "emailjs-com";
 
 function Form () {
     return (
@@ -122,7 +123,7 @@ function Form () {
                  </div> 
 
                  <div className="column-6">
-                 <form>
+                 <form onSubmit = {onSubmit}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
