@@ -37,7 +37,7 @@ import { send } from 'emailjs-com';
         user_name: '',
         phone_number: '',
         email: '',
-        subject_Email: '',
+        subject: '',
         company:'',
         message:''
       });
@@ -127,7 +127,7 @@ import { send } from 'emailjs-com';
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic12"><img src={formpic12} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control" name="subject_Email"  
+          <input type="text" className="form-control" name="subject"  
     onChange={handleChange} placeholder="Enter Your Subject" required/>
           </div>
 
