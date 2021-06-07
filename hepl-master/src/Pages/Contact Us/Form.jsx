@@ -14,9 +14,58 @@ import formpic12 from "../../Assets/website-17.png";
 import formpic13 from "../../Assets/website-18.png";
 import formpic14 from "../../Assets/website-14.png";
 import formpic15 from "../../Assets/website-18.png";
-import emailjs from "emailjs-com";
+import { Component } from "react";
+import Email from '../Contact Us/Email.js'
 
-function Form () {
+class Form extends Component { 
+
+
+
+       constructor(props) {
+         super(props)
+       
+         this.state = {
+            username:'',
+            comments:'',
+            number:''
+         }
+       }
+
+       handleUsernameChange = event => {
+            this.setState ({
+              username: event.target.value
+            })
+       }
+
+       handleSubmit(e) {
+         e.preventDefault()
+
+         const {username,comments,number} = this.state
+       }
+
+       handleCommentsChange = event => {
+         this.setState ({
+           comments: event.target.value
+         })
+       }
+
+
+
+       handleNumberChange = event => {
+         this.setState ({
+           number: event.target.value
+         })
+       } 
+
+
+
+       handleSubmit = event => {
+         alert(`${this.state.username} ${this.state.comments}`)
+       }
+
+
+         
+ render() {
     return (
     <div className="cont1">
     {/* <div>
@@ -123,16 +172,16 @@ function Form () {
                  </div> 
 
                  <div className="column-6">
-                 <form onSubmit = {onSubmit}>
+                 <form onSubmit={Email}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
-          <input type="text" className="form-control"  placeholder="Enter Your Name" required/>
+          <input type="text" className="form-control" value={this.state.username}  onChange={this.handleUsernameChange} placeholder="Enter Your Name" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic14"><img src={formpic10} style={{height: "28px"}}/></span>
-          <input type="text" className="form-control"  placeholder="Enter Your Number" required/>
+          <input type="text" className="form-control" value={this.state.number}  onChange={this.handleNumberChange}  placeholder="Enter Your Number" required/>
           </div>
 
           <div className="column-7">
@@ -157,16 +206,17 @@ function Form () {
            <div className="row-6">
                 <div className="column-8">
                 <span className="form-pic13"><img src={formpic13} style={{height: "50px"}}/></span>
-        <textarea className="text" placeholder="Enter Your Message Here"></textarea>
+        <textarea className="text" value={this.state.comments}  onChange={this.handleCommentsChange} placeholder="Enter Your Message Here"></textarea>
                 </div>
-           </div>       
-        </form>  
-                 <div className="row-6">
+           </div>
+           <div className="row-6">
                        <div className="column-9">
                        
                       <button className="form-col">VERIFY AND SEND MESSAGE</button>
                        </div>
-                 </div>
+                 </div>       
+        </form>  
+               
                  </div>            
            </div>
        
@@ -175,9 +225,9 @@ function Form () {
          </div>
     </div>
     )
-}
-
-
+ 
+  }
+} 
 
 
 export default Form;
