@@ -16,6 +16,7 @@ import formpic14 from "../../Assets/website-14.png";
 import formpic15 from "../../Assets/website-18.png";
 import { Component } from "react";
 import Email from '../Contact Us/Email.js'
+import sendEmail from '../Contact Us/Email.js'
 
 class Form extends Component { 
 
@@ -172,7 +173,7 @@ class Form extends Component {
                  </div> 
 
                  <div className="column-6">
-                 <form onSubmit={Email}>
+                 <form onSubmit={sendEmail}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
