@@ -103,7 +103,7 @@ import { send } from 'emailjs-com';
                  </div> 
 
                  <div className="column-6">
-                 <form onSubmit={onSubmit}>
+                 <form onSubmit={sendEmail}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
