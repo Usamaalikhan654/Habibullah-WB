@@ -24,7 +24,7 @@ import emailjs from 'emailjs-com';
     function sendEmail(e) {
       e.preventDefault();
   
-      emailjs.sendForm('service_qr4ch2m', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
+      emailjs.sendForm('gmail', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -32,7 +32,7 @@ import emailjs from 'emailjs-com';
         });
     }
 
- 
+    const reload=()=>window.location.reload();
 
          
 
@@ -182,7 +182,7 @@ import emailjs from 'emailjs-com';
            <div className="row-6">
                        <div className="column-9">
                        
-                      <button className="form-col">VERIFY AND SEND MESSAGE</button>
+                      <button onClick={reload} className="form-col">VERIFY AND SEND MESSAGE</button>
                        </div>
                  </div>       
         </form>  
