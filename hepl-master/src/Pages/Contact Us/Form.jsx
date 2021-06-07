@@ -22,16 +22,16 @@ import { send } from 'emailjs-com';
 
   export default function Form() {
    
-    // function sendEmail(e) {
-    //   e.preventDefault();
+    function sendEmail(e) {
+      e.preventDefault();
   
-    //   emailjs.sendForm('service_qr4ch2m', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
-    //     .then((result) => {
-    //         console.log(result.text);
-    //     }, (error) => {
-    //         console.log(error.text);
-    //     });
-    // }
+      emailjs.sendForm('service_qr4ch2m', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
 
       const [toSend, setToSend] = useState({
         user_name: '',
@@ -107,19 +107,19 @@ import { send } from 'emailjs-com';
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
-          <input type="text" className="form-control" name="user_name"   value={toSend.user_name}
+          <input type="text" className="form-control" name="user_name"  
     onChange={handleChange}  placeholder="Enter Your Name" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic14"><img src={formpic10} style={{height: "28px"}}/></span>
-          <input type="text" className="form-control" name="phone_number"   value={toSend.phone_number}
+          <input type="text" className="form-control" name="phone_number"  
     onChange={handleChange}  placeholder="Enter Your Number" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic11"><img src={formpic11} style={{height: "62px"}}/></span>
-          <input type="text" className="form-control" name="email"     value={toSend.email}
+          <input type="text" className="form-control" name="email"    
     onChange={handleChange}  placeholder="Enter Your Email" required/>
           </div>
         </div>
@@ -127,13 +127,13 @@ import { send } from 'emailjs-com';
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic12"><img src={formpic12} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control" name="subject_Email"  value={toSend.subject_Email}
+          <input type="text" className="form-control" name="subject_Email"  
     onChange={handleChange} placeholder="Enter Your Subject" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic15"><img src={formpic15} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control" name="company"     value={toSend.company}
+          <input type="text" className="form-control" name="company" 
     onChange={handleChange} placeholder="Enter Your Company Name " required/>
           </div>
 
@@ -142,7 +142,7 @@ import { send } from 'emailjs-com';
            <div className="row-6">
                 <div className="column-8">
                 <span className="form-pic13"><img src={formpic13} style={{height: "50px"}}/></span>
-        <textarea className="text"   value={toSend.message} onChange={handleChange} name="message" placeholder="Enter Your Message Here"></textarea>
+        <textarea className="text" onChange={handleChange} name="message" placeholder="Enter Your Message Here"></textarea>
                 </div>
            </div>
            <div className="row-6">
