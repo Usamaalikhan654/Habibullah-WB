@@ -31,6 +31,7 @@ import { send } from 'emailjs-com';
         }, (error) => {
             console.log(error.text);
         });
+        e.target.reset()
     }
 
       // const [toSend, setToSend] = useState({
