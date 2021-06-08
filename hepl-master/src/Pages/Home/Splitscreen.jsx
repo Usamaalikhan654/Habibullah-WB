@@ -29,7 +29,7 @@ function Splitscreen() {
             staff.<br/>
             HEPL has industrial arrangements focused on the manufacturing
             and fabrication of custom engineered products.
-            At HEPL, we are committed to providing cli ents with best
+            At HEPL, we are committed to providing clients with best
             engineered solution within their budget and time frame.
         </p>
     </div>

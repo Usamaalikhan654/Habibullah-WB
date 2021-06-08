@@ -403,7 +403,7 @@ function Cards() {
       <p>
         <ul>
           <li>GSM Antenna Mounts</li>
-          <li>uyed Mast Towers</li>
+          <li>Guyed  Mast Towers</li>
           <li>Monopole Towers</li>
           <li>Radio Towers</li>
           <li>Self Supported Towers</li>
