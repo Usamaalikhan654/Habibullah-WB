@@ -17,7 +17,8 @@ import formpic15 from "../../Assets/website-18.png";
 import { Component } from "react";
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
-import { send } from 'emailjs-com';
+import{ init } from 'emailjs-com';
+init("user_bgqJpE58sM4p2OVzSDoE6");
 
 
   export default function Form() {
