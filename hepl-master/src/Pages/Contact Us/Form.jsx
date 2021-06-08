@@ -33,34 +33,34 @@ import { send } from 'emailjs-com';
         });
     }
 
-      const [toSend, setToSend] = useState({
-        user_name: '',
-        phone_number: '',
-        email: '',
-        subject: '',
-        company:'',
-        message:''
-      });
+      // const [toSend, setToSend] = useState({
+      //   user_name: '',
+      //   phone_number: '',
+      //   email: '',
+      //   subject: '',
+      //   company:'',
+      //   message:''
+      // });
     
-      const onSubmit = (e) => {
-        e.preventDefault();
-        send(
-          'service_qr4ch2m',
-          'template_dyt8nbj',
-          toSend,
-          'user_bgqJpE58sM4p2OVzSDoE6'
-        )
-          .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
-          })
-          .catch((err) => {
-            console.log('FAILED...', err);
-          });
-      };
+      // const onSubmit = (e) => {
+      //   e.preventDefault();
+      //   send(
+      //     'service_qr4ch2m',
+      //     'template_dyt8nbj',
+      //     toSend,
+      //     'user_bgqJpE58sM4p2OVzSDoE6'
+      //   )
+      //     .then((response) => {
+      //       console.log('SUCCESS!', response.status, response.text);
+      //     })
+      //     .catch((err) => {
+      //       console.log('FAILED...', err);
+      //     });
+      // };
     
-      const handleChange = (e) => {
-        setToSend({ ...toSend, [e.target.name]: e.target.value });
-      };
+      // const handleChange = (e) => {
+      //   setToSend({ ...toSend, [e.target.name]: e.target.value });
+      // };
          
 
     return (
@@ -107,34 +107,29 @@ import { send } from 'emailjs-com';
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
-          <input type="text" className="form-control" name="user_name"  
-    onChange={handleChange}  placeholder="Enter Your Name" required/>
+          <input type="text" className="form-control" name="user_name" placeholder="Enter Your Name" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic14"><img src={formpic10} style={{height: "28px"}}/></span>
-          <input type="text" className="form-control" name="phone_number"  
-    onChange={handleChange}  placeholder="Enter Your Number" required/>
+          <input type="text" className="form-control" name="phone_number"  placeholder="Enter Your Number" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic11"><img src={formpic11} style={{height: "62px"}}/></span>
-          <input type="text" className="form-control" name="email"    
-    onChange={handleChange}  placeholder="Enter Your Email" required/>
+          <input type="text" className="form-control" name="email"  placeholder="Enter Your Email" required/>
           </div>
         </div>
 
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic12"><img src={formpic12} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control" name="subject"  
-    onChange={handleChange} placeholder="Enter Your Subject" required/>
+          <input type="text" className="form-control" name="subject"  placeholder="Enter Your Subject" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic15"><img src={formpic15} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control" name="company" 
-    onChange={handleChange} placeholder="Enter Your Company Name " required/>
+          <input type="text" className="form-control" name="company" placeholder="Enter Your Company Name " required/>
           </div>
 
         </div>
@@ -142,7 +137,7 @@ import { send } from 'emailjs-com';
            <div className="row-6">
                 <div className="column-8">
                 <span className="form-pic13"><img src={formpic13} style={{height: "50px"}}/></span>
-        <textarea className="text" onChange={handleChange} name="message" placeholder="Enter Your Message Here"></textarea>
+        <textarea className="text"  name="message" placeholder="Enter Your Message Here"></textarea>
                 </div>
            </div>
            <div className="row-6">
