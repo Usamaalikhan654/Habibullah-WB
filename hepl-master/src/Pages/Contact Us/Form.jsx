@@ -145,7 +145,7 @@ init("user_bgqJpE58sM4p2OVzSDoE6");
            <div className="row-6">
                        <div className="column-9">
                        
-                      <button  onClick={sendEmail()} className="form-col">VERIFY AND SEND MESSAGE</button>
+                      <button className="form-col">VERIFY AND SEND MESSAGE</button>
                        </div>
                  </div>       
         </form>  
