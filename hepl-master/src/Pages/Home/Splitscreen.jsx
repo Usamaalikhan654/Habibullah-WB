@@ -27,10 +27,7 @@ function Splitscreen() {
             turnkey or partial basis. We take pride in offering customized
             deliver high quality products through our qualified trained
             staff.<br/>
-            HEPL has industrial arrangements focused on the manufacturing
-            and fabrication of custom engineered products.
-            At HEPL, we are committed to providing clients with best
-            engineered solution within their budget and time frame.
+            HEPL has industrial arrangements focused on the manufacturing and fabrication of custom engineered products.
         </p>
     </div>
    </div>

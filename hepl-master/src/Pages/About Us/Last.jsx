@@ -36,12 +36,9 @@ products through our qualified trained staff.</p>
 HEPL has industrial arrangements focused on the manufacturing and
 fabrication of custom engineered products.</p>
 <p className="lastpara1">
-We utilize the latest technology available in producing the finest quality
-products. All raw material and finished products pass through a stringent QA/
-QC process under the supervision of well trained and capable experts.</p>
+We utilize the latest technology available in producing the finest quality products. All raw material and finished products pass through a stringent QA/ QC process under the supervision of well trained and capable experts. </p>
 <p className="lastpara1">
-At HEPL, we are committed to providing clients with best engineered solution
-within their budget and time frame.
+At HEPL, we are committed to providing clients with best engineered solution within their budget and time frame.
 </p>
 
 </div>
