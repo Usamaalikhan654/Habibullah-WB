@@ -48,6 +48,11 @@ body {
 
 .heading1 {
   color: #2e307b;
+  font-family: Futura Md BT;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
 }
 .heading2 {
   padding: 10px;

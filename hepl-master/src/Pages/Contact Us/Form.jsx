@@ -17,8 +17,7 @@ import formpic15 from "../../Assets/website-18.png";
 import { Component } from "react";
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
-import{ init } from 'emailjs-com';
-init("user_bgqJpE58sM4p2OVzSDoE6");
+
 
 
   export default function Form() {
@@ -145,7 +144,7 @@ init("user_bgqJpE58sM4p2OVzSDoE6");
            <div className="row-6">
                        <div className="column-9">
                        
-                      <button className="form-col">VERIFY AND SEND MESSAGE</button>
+                      <button  onClick={sendEmail()} className="form-col">VERIFY AND SEND MESSAGE</button>
                        </div>
                  </div>       
         </form>  
