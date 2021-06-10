@@ -144,7 +144,7 @@ import { useState } from 'react';
            <div className="row-6">
                        <div className="column-9">
                        
-                      <button  onClick={sendEmail()} className="form-col">VERIFY AND SEND MESSAGE</button>
+                      <button  className="form-col">VERIFY AND SEND MESSAGE</button>
                        </div>
                  </div>       
         </form>  
