@@ -44,6 +44,21 @@ import Axios from 'axios';
       message:""
     })
 
+    function submit(e){
+      e.preventDefault();
+      Axios.post(url,{
+        user_name: data.user_name,
+        phone_number: data.phone_number,
+        email: data.email,
+        subject: data.subject,
+        company: data.company,
+        message: data.message
+      })
+      .then(res => {
+         console.log(res.data)
+      })
+    }
+
      function handle(e){
           const newdata={...data}
           newdata[e.target.id]= e.target.value
@@ -120,7 +135,7 @@ import Axios from 'axios';
                  </div> 
 
                  <div className="column-6">
-                 <form>
+                 <form onSubmit={(e)=> submit(e)}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
