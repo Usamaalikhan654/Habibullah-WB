@@ -7,8 +7,21 @@ import searchIcon from "../../Assets/searchIcon.png";
 import menuIcon from "../../Assets/menu.png";
 import { Link } from "react-router-dom";
 
+
+
+
+
+
+
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
+
+  const  [img , setImg] = useState("");
+const inputEvent = (event) => {
+  const data = event.target.value
+  console.log(data);
+  setImg(data);
+}
 
   return (
     <div>
@@ -32,6 +45,8 @@ function Header() {
               <input
                 className={styles.input}
                 placeholder="Search Keyword Here"
+                value={img}
+                onChange={inputEvent}
               />
 
               <img src={searchIcon} className={styles.searchIcon} />
