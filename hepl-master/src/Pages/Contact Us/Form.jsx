@@ -22,49 +22,49 @@ import Axios from 'axios';
 
   export default function Form() {
    
-    // function sendEmail(e) {
-    //   e.preventDefault();
-  
-    //   emailjs.sendForm('gmail', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
-    //     .then((result) => {
-    //         console.log(result.text);
-    //     }, (error) => {
-    //         console.log(error.text);
-    //     });
-    //     e.target.reset()
-    // }
-
-    const url=""
-    const [data,setData] = useState ({
-      user_name:"",
-      phone_number:"",
-      email:"",
-      subject:"",
-      company:"",
-      message:""
-    })
-
-    function submit(e){
+    function sendEmail(e) {
       e.preventDefault();
-      Axios.post(url,{
-        user_name: data.user_name,
-        phone_number: data.phone_number,
-        email: data.email,
-        subject: data.subject,
-        company: data.company,
-        message: data.message
-      })
-      .then(res => {
-         console.log(res.data)
-      })
+  
+      emailjs.sendForm('gmail', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
     }
 
-     function handle(e){
-          const newdata={...data}
-          newdata[e.target.id]= e.target.value
-          setData (newdata)
-          console.log(newdata)
-     }
+    // const url=""
+    // const [data,setData] = useState ({
+    //   user_name:"",
+    //   phone_number:"",
+    //   email:"",
+    //   subject:"",
+    //   company:"",
+    //   message:""
+    // })
+
+    // function submit(e){
+    //   e.preventDefault();
+    //   Axios.post(url,{
+    //     user_name: data.user_name,
+    //     phone_number: data.phone_number,
+    //     email: data.email,
+    //     subject: data.subject,
+    //     company: data.company,
+    //     message: data.message
+    //   })
+    //   .then(res => {
+    //      console.log(res.data)
+    //   })
+    // }
+
+    //  function handle(e){
+    //       const newdata={...data}
+    //       newdata[e.target.id]= e.target.value
+    //       setData (newdata)
+    //       console.log(newdata)
+    //  }
       // const [toSend, setToSend] = useState({
       //   user_name: '',
       //   phone_number: '',
@@ -135,33 +135,33 @@ import Axios from 'axios';
                  </div> 
 
                  <div className="column-6">
-                 <form onSubmit={(e)=> submit(e)}>
+                 <form onSubmit={sendEmail}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
-          <input type="text" className="form-control" onChange={(e)=>handle(e)} id="user_name" value={data.user_name}  placeholder="Enter Your Name" required/>
+          <input type="text" className="form-control"  name="user_name" placeholder="Enter Your Name" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic14"><img src={formpic10} style={{height: "28px"}}/></span>
-          <input type="text" className="form-control"  onChange={(e)=>handle(e)} id="phone_number" value={data.phone_number}   placeholder="Enter Your Number" required/>
+          <input type="text" className="form-control"  name="phone_number"    placeholder="Enter Your Number" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic11"><img src={formpic11} style={{height: "62px"}}/></span>
-          <input type="text" className="form-control"  onChange={(e)=>handle(e)} id="email" value={data.email}   placeholder="Enter Your Email" required/>
+          <input type="text" className="form-control"   name="email"    placeholder="Enter Your Email" required/>
           </div>
         </div>
 
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic12"><img src={formpic12} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control"  onChange={(e)=>handle(e)} id="subject" value={data.subject}   placeholder="Enter Your Subject" required/>
+          <input type="text" className="form-control"  name="subject"    placeholder="Enter Your Subject" required/>
           </div>
 
           <div className="column-7">
           <span className="form-pic15"><img src={formpic15} style={{height: "50px"}}/></span>
-          <input type="text" className="form-control"  onChange={(e)=>handle(e)} id="company" value={data.company}   placeholder="Enter Your Company Name " required/>
+          <input type="text" className="form-control"   name="company"    placeholder="Enter Your Company Name " required/>
           </div>
 
         </div>
@@ -169,7 +169,7 @@ import Axios from 'axios';
            <div className="row-6">
                 <div className="column-8">
                 <span className="form-pic13"><img src={formpic13} style={{height: "50px"}}/></span>
-                <textarea className="text"  onChange={(e)=>handle(e)} value={data.message} id="message"  placeholder="Enter Your Message Here"></textarea>
+                <textarea className="text"    name="message"  placeholder="Enter Your Message Here"></textarea>
                 </div>
            </div>
            <div className="row-6">
