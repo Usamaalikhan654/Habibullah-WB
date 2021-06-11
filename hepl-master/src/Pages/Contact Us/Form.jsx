@@ -34,7 +34,7 @@ import Axios from 'axios';
     //     e.target.reset()
     // }
 
-    const url="1cc49d8569ee846fcacfedfaa88c2b78"
+    const url="https://jsonplaceholder.typicode.com/users"
     const [data,setData] = useState ({
       user_name:"",
       phone_number:"",
