@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Habibullah-WB/static/css/main.367c2e58.chunk.css",
-    "main.js": "/Habibullah-WB/static/js/main.ec89a9fa.chunk.js",
-    "main.js.map": "/Habibullah-WB/static/js/main.ec89a9fa.chunk.js.map",
+    "main.js": "/Habibullah-WB/static/js/main.c302ee28.chunk.js",
+    "main.js.map": "/Habibullah-WB/static/js/main.c302ee28.chunk.js.map",
     "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.6b2410a2.js",
     "runtime-main.js.map": "/Habibullah-WB/static/js/runtime-main.6b2410a2.js.map",
     "static/js/2.b59df14e.chunk.js": "/Habibullah-WB/static/js/2.b59df14e.chunk.js",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.6b2410a2.js",
     "static/js/2.b59df14e.chunk.js",
     "static/css/main.367c2e58.chunk.css",
-    "static/js/main.ec89a9fa.chunk.js"
+    "static/js/main.c302ee28.chunk.js"
   ]
 }
