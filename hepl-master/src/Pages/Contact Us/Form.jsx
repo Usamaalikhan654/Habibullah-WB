@@ -22,17 +22,17 @@ import Axios from 'axios';
 
   export default function Form() {
    
-    function sendEmail(e) {
-      e.preventDefault();
+    // function sendEmail(e) {
+    //   e.preventDefault();
   
-      emailjs.sendForm('gmail', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-        e.target.reset()
-    }
+    //   emailjs.sendForm('gmail', 'template_dyt8nbj', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
+    //     .then((result) => {
+    //         console.log(result.text);
+    //     }, (error) => {
+    //         console.log(error.text);
+    //     });
+    //     e.target.reset()
+    // }
 
     const url=""
     const [data,setData] = useState ({
@@ -135,7 +135,7 @@ import Axios from 'axios';
                  </div> 
 
                  <div className="column-6">
-                 <form onSubmit={`${(e)=> submit(e)} ${sendEmail}`}>
+                 <form onSubmit={(e)=> submit(e)}>
         <div className="row-6">
           <div className="column-7">
           <span className="form-pic14"><img src={formpic14} style={{height: "40px"}}/></span>
