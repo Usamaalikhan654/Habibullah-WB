@@ -5,9 +5,21 @@ import './Input.css';
 import link from "../Home/HEPL Website_organized.pdf";
 import image3 from "../../Assets/website-32\ 1.jpg";
 import image4 from "../../Assets/headphone-22.png";
-
+import emailjs from 'emailjs-com';
 
 function Input() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_4ywf19y', 'template_wcl9j8w', e.target, 'user_bgqJpE58sM4p2OVzSDoE6')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
 
   return (
 
@@ -37,12 +49,15 @@ function Input() {
           <a href={link} download><span>DOWNLOAD COMPANY PROFILE</span></a>
           </div>
         </div>
+        
         <div className="column2">
           <h2 className="heading">SUBSCRIBE NOW</h2>
-          <input className="input" placeholder="Enter Your Email"></input>
+          <form onSubmit={sendEmail}>
+          <input className="input" name="SubscribeEmail" placeholder="Enter Your Email"></input>
           <button className="rect">
             SUBMIT NOW
-    </button>
+        </button>
+        </form>
           <p className="parag1">GET MORE INFO</p>
           <span className="image1"><a href="https://www.linkedin.com/login" target="_blank"><img src={image1} /></a></span>
           <span className="img3"><a href="https://www.facebook.com/" target="_blank"><img src={image3} /></a></span>
