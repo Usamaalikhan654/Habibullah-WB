@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Habibullah-WB/static/css/main.8cb64984.chunk.css",
-    "main.js": "/Habibullah-WB/static/js/main.ff96d8ed.chunk.js",
-    "main.js.map": "/Habibullah-WB/static/js/main.ff96d8ed.chunk.js.map",
+    "main.js": "/Habibullah-WB/static/js/main.3a8b411b.chunk.js",
+    "main.js.map": "/Habibullah-WB/static/js/main.3a8b411b.chunk.js.map",
     "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.1a15fa76.js",
     "runtime-main.js.map": "/Habibullah-WB/static/js/runtime-main.1a15fa76.js.map",
     "static/js/2.fb362abb.chunk.js": "/Habibullah-WB/static/js/2.fb362abb.chunk.js",
@@ -21,7 +21,6 @@
     "static/media/logo-05 1.d8931c04.jpg": "/Habibullah-WB/static/media/logo-05 1.d8931c04.jpg",
     "static/media/logo.cdc0ac7c.png": "/Habibullah-WB/static/media/logo.cdc0ac7c.png",
     "static/media/Last.css": "/Habibullah-WB/static/media/pexels-lex-photography-1109541 1.3f213944.jpg",
-    "static/media/pexels-tiger-lily-4483610 1.b631142c.jpg": "/Habibullah-WB/static/media/pexels-tiger-lily-4483610 1.b631142c.jpg",
     "static/media/scaffolding-30 1.b1b99441.jpg": "/Habibullah-WB/static/media/scaffolding-30 1.b1b99441.jpg",
     "static/media/warehouse-10 1.f941d732.jpg": "/Habibullah-WB/static/media/warehouse-10 1.f941d732.jpg",
     "static/media/website-06 1.b5730f19.png": "/Habibullah-WB/static/media/website-06 1.b5730f19.png",
@@ -38,6 +37,6 @@
     "static/js/runtime-main.1a15fa76.js",
     "static/js/2.fb362abb.chunk.js",
     "static/css/main.8cb64984.chunk.css",
-    "static/js/main.ff96d8ed.chunk.js"
+    "static/js/main.3a8b411b.chunk.js"
   ]
 }
