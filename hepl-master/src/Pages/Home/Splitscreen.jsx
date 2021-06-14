@@ -9,6 +9,7 @@ function Splitscreen() {
   return (
   
    <div className="container5">
+   <div className="sub-cont">
    <div className="visible-desk">
 
        <h2>Why Choose Us</h2> 
@@ -29,6 +30,7 @@ function Splitscreen() {
             staff.<br/>
             HEPL has industrial arrangements focused on the manufacturing and fabrication of custom engineered products.
         </p>
+    </div>
     </div>
    </div>
 
