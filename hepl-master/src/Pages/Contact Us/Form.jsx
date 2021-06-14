@@ -105,7 +105,9 @@ import Axios from 'axios';
                       <div className="column-card">
                       <h1 class="form-head">OFFICE LOCATION</h1>
                      <p className="form-para">1104, 11th Floor, Uni Tower,I.I Chundrigar Road Karachi,Pakistan 74000</p>
+                        <a href="https://www.google.com/maps/search/Habibullah+Engineering+(Pvt)+Limited,+Uni+Tower,+1104,+11th+Floor,+I.I+Chundrigar+Rd,+Seari+Quarters,+Karachi,+Karachi+City,+Sindh+74400,+Pakistan/@24.8499219,67.0046981,17z/data=!3m1!4b1">
                         <h2 class="form-head1">Get Directions</h2>
+                        </a>
                       </div>
                  </div>
 
