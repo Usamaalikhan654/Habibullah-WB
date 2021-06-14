@@ -52,8 +52,10 @@ const Home = () => {
   
    <div className={styles.Input1}>
    <div className={styles.Border}></div>
+   <div className={styles.Flexouter}>
    <div className={styles.Flexinner}>
      <span className={styles.para}>Privacy Policy</span> <span className={styles.phot}><img src={photo}/></span> <span className={styles.span}>Terms & Conditions</span>
+   </div>
    </div>
    </div>
   
