@@ -9,6 +9,7 @@ import emailjs from 'emailjs-com';
 
 function Input() {
 
+  
   function sendEmail(e) {
     e.preventDefault();
 
@@ -55,7 +56,7 @@ function Input() {
          <form onSubmit={sendEmail}>
           <h2 className="heading">SUBSCRIBE NOW</h2>  
           <input className="input" name="SubscribeEmail" placeholder="Enter Your Email"></input>
-          <button className="rect">SUBMIT NOW</button>
+          <button onSubmit={sendEmail} className="rect">SUBMIT NOW</button>
           </form>
           <p className="parag1">GET MORE INFO</p>
           <span className="image1"><a href="https://www.linkedin.com/login" target="_blank"><img src={image1} /></a></span>
