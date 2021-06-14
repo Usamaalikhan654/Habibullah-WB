@@ -117,19 +117,20 @@ mix-blend-mode: lighten;
 
 
 /* position: absolute; */
-width: 846px;
+/* width: 846px; */
 /* height: 116px; */
 left: 145px;
 right: 160x;
 top: 2476px;
 /* margin-left: -34px; */
 padding-right: 130px;
-
+width: 50%;
+line-height: 50px;
 font-family: Futura-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 34px;
-line-height: 39px;
+/* line-height: 39px; */
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
@@ -141,6 +142,8 @@ color: #FFFFFF;
 .visible-desk {
   max-width: 1140px;
   margin: auto;
+  padding-top: 9%;
+  padding-bottom: 9%;
 }
 
 .container5 {
@@ -157,9 +160,12 @@ color: #FFFFFF;
   /* width: 846px; */
   /* height: 170px; */
   left: 80px;
-  line-height: 54px;
+  /* line-height: 54px; */
   right: 160x;
   top: 2476px;
+  line-height: 22px;
+  margin-top: 50px;
+  width: 50%;
   /* margin-left: 28px; */
   /* padding-right: 130px; */
   /* margin-top: 90px; */
@@ -175,7 +181,7 @@ color: #FFFFFF;
   color: #FFFFFF;
   font-size: 17px;
 
-  margin-top: 250px;
+  /* margin-top: 250px; */
 }
 
 
