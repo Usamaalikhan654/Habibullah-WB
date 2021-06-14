@@ -55,10 +55,8 @@ function Input() {
           <h2 className="heading">SUBSCRIBE NOW</h2>
           <form onSubmit={sendEmail}>
           <input className="input" name="SubscribeEmail" placeholder="Enter Your Email"></input>
-          <button className="rect">
-            SUBMIT NOW
-        </button>
-        </form>
+          <button className="rect"> SUBMIT NOW</button>
+            </form>
           <p className="parag1">GET MORE INFO</p>
           <span className="image1"><a href="https://www.linkedin.com/login" target="_blank"><img src={image1} /></a></span>
           <span className="img3"><a href="https://www.facebook.com/" target="_blank"><img src={image3} /></a></span>
