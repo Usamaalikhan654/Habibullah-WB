@@ -24,6 +24,7 @@ function Input() {
   return (
 
     <div className="container">
+    <a href="tel:0300-011-hepl (4375)">
       <div className="row">
         <div className="column2">
           <div className="img">
@@ -63,6 +64,7 @@ function Input() {
           <span className="img3"><a href="https://www.facebook.com/" target="_blank"><img src={image3} /></a></span>
         </div>
       </div>
+      </a>
     </div>
 
 
