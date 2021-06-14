@@ -10,9 +10,9 @@ function Splitscreen() {
   
    <div className="container5">
    <div className="visible-desk">
-     <div className="image">
+
        <h2>Why Choose Us</h2> 
-   </div>
+ 
      <div className="head4">
         <h2>Delivering Quality Engineered Products.</h2>
     </div>
