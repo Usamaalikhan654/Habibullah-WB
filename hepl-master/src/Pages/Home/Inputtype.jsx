@@ -24,7 +24,7 @@ function Input() {
   return (
 
     <div className="container">
-    <a href="tel:0300-011-hepl (4375)">
+    <a href="#">
       <div className="row">
         <div className="column2">
           <div className="img">
