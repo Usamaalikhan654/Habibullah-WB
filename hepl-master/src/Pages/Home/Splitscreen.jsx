@@ -1,6 +1,6 @@
 import React from 'react';
 import './Splitscreen.css';
-import image  from "../../Assets/pexels-tiger-lily-4483610\ 1.jpg";
+
 
 
 function Splitscreen() {
@@ -9,10 +9,10 @@ function Splitscreen() {
   return (
   
    <div className="container5">
-   <div className="sub-cont">
+   
    <div className="visible-desk">
-
-       <h2>Why Choose Us</h2> 
+   
+       <h2 className="image">Why Choose Us</h2> 
  
      <div className="head4">
         <h2>Delivering Quality Engineered Products.</h2>
@@ -32,7 +32,7 @@ function Splitscreen() {
         </p>
     </div>
     </div>
-   </div>
+
 
 <div className="visible-mobile">
   <div className="splitscreen-bg">
