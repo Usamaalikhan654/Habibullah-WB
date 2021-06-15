@@ -55,6 +55,7 @@ function Input() {
           <h2 className="heading">SUBSCRIBE NOW</h2>
           <form onSubmit={sendEmail}>  
           <input className="input" name="SubscribeEmail" placeholder="Enter Your Email"></input>
+          <input className="input" name="SubscribeEmail" placeholder="Enter Your Email"></input>
           <button className="rect">SUBMIT NOW</button>
           </form>
           <p className="parag1">GET MORE INFO</p>
