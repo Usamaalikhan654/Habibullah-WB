@@ -16,12 +16,7 @@ import { Link } from "react-router-dom";
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
-  const  [img , setImg] = useState("");
-const inputEvent = (event) => {
-  const data = event.target.value
-  console.log(data);
-  setImg(data);
-}
+
 
   return (
     <div>
@@ -45,8 +40,6 @@ const inputEvent = (event) => {
               <input
                 className={styles.input}
                 placeholder="Search Keyword Here"
-                value={img}
-                onChange={inputEvent}
               />
 
               <img src={searchIcon} className={styles.searchIcon} />
@@ -99,6 +92,8 @@ const inputEvent = (event) => {
       {/* menu for mobile */}
     </div>
   );
-}
+  
+ }
+
 
 export default Header;
