@@ -18,6 +18,7 @@ function Header() {
 
 
 
+
   return (
     <div>
       <div className={styles.container}>
@@ -41,7 +42,6 @@ function Header() {
                 className={styles.input}
                 placeholder="Search Keyword Here"
               />
-
               <img src={searchIcon} className={styles.searchIcon} />
             </div>
           </div>
@@ -92,8 +92,7 @@ function Header() {
       {/* menu for mobile */}
     </div>
   );
-  
- }
+}
 
 
 export default Header;
