@@ -10,45 +10,50 @@ import { Link } from "react-router-dom";
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const data = 
-    [
-      {
-        
-        "firstname": "Home",
-        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/"
+  [
+    {
+      
+      "firstname": "Home",
+      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/"
+
+    },
+    {
+
+      "firstname": "About Us",
+      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/about"
+      
+    },
+    {
+     
+      "firstname": "Product",
+      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Product"
+
+    },
+    {
+      
+      "firstname": "Machine",
+      "url":  "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
  
-      },
-      {
+    },
+    {
+     
+      "firstname": "Contact Us",
+      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Contact"
+      
+    }
 
-        "firstname": "About Us",
-        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/about"
-        
-      },
-      {
-       
-        "firstname": "Product",
-        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Product"
-
-      },
-      {
-        
-        "firstname": "Machine",
-        "url":  "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
-   
-      },
-      {
-       
-        "firstname": "Contact Us",
-        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Contact"
-        
-      }
-
-   
-    ]
+ 
+  ]
 
   
  const [searchTerm, setsearchTerm] = useState('');
- const [showText, setShowText] = useState(false);
-
+ const [showText, setShowText] = useState();
+ function hideDiv(id) {
+   var div = document.getElementById(id);
+   if(id !== null ) {
+     div.style.display = 'none';
+   }
+ }
 
   return (
     <div>
@@ -73,13 +78,12 @@ function Header() {
                 className={styles.input}
                 placeholder="Search Keyword Here"
                 onChange={(event) => {setsearchTerm(event.target.value);}}
-                onFocus={() => setShowText(!showText)}
-                onBlur={() => setShowText(!showText)}
+                onMouseUp={() => setShowText(!showText)}
                
               />
               <img src={searchIcon} className={styles.searchIcon} />
               {showText && 
-              <div className={styles.ParentKeyword}>
+              <div className={styles.ParentKeyword} id="searchItems">
               {data.filter((val) => {
                 if (searchTerm == ""){
                   return val
