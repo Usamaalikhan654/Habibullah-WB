@@ -7,16 +7,74 @@ import searchIcon from "../../Assets/searchIcon.png";
 import menuIcon from "../../Assets/menu.png";
 import { Link } from "react-router-dom";
 
-
-
-
-
-
-
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const data = 
+    [
+      {
+        
+        "firstname": "Walter Isaacson",
+        "url":  "http://google.com"
+ 
+      },
+      {
 
+        "firstname": "Peter Thiel, Blake Masters",
+        "url":  "http://google.com"
+        
+      },
+      {
+       
+        "firstname": "David Thomas, Andrew Hunt",
+        "url":  "http://google.com"
 
+      },
+      {
+        
+        "firstname": "Gene Kim",
+        "url":  "http://google.com"
+   
+      },
+      {
+       
+        "firstname": "Chad Fowler",
+        "url":  "http://google.com"
+        
+      },
+      {
+        
+        "firstname": "Nick Bilton",
+        "url":  "http://google.com"
+        
+      },
+      {
+        
+        "firstname": "Eric Schmidt, Jonathan Rosenberg",
+        "url":  "http://google.com"
+ 
+      },
+      {
+        
+        "firstname": "Ashlee Vance",
+        "url":  "http://google.com"
+      },
+      {
+        
+        "firstname": "Richard P. Feynman",
+        "url":  "http://google.com"
+ 
+      },
+      {
+        
+        "firstname": "Yuval Noah Harari",
+        "url":  "http://google.com"
+
+      }
+    ]
+
+  
+ const [searchTerm, setsearchTerm] = useState('');
+ const [showText, setShowText] = useState(false);
 
 
   return (
@@ -41,8 +99,27 @@ function Header() {
               <input
                 className={styles.input}
                 placeholder="Search Keyword Here"
+                onChange={(event) => {setsearchTerm(event.target.value);}}
+                onFocus={() => setShowText(!showText)}
+                onBlur={() => setShowText(!showText)}
+               
               />
               <img src={searchIcon} className={styles.searchIcon} />
+              {showText && 
+              <div className={styles.ParentKeyword}>
+              {data.filter((val) => {
+                if (searchTerm == ""){
+                  return val
+                } else if (val.firstname.toLowerCase().includes(searchTerm.toLowerCase())) {
+                  return val
+                }
+              }).map((val,key) => {
+                return <div className="keyword" key={key}>
+                <a href={val.url}>{val.firstname}</a>
+                </div>
+              })}
+              </div>
+              }
             </div>
           </div>
         </div>
@@ -71,7 +148,7 @@ function Header() {
           <div className={styles.dropDown}>
           
             <div className={styles.dopDownMenuBox}>
-             <Link to="/"><p className={styles.dropdownMenuItem}>HOME</p></Link>
+            <Link to="/"><p className={styles.dropdownMenuItem}>HOME</p></Link>
             </div>
             
             <div className={styles.dopDownMenuBox}>
@@ -93,6 +170,5 @@ function Header() {
     </div>
   );
 }
-
 
 export default Header;

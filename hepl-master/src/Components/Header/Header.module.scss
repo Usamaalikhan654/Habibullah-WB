@@ -163,6 +163,15 @@
   margin-left: 10px;
 }
 
+.ParentKeyword {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  padding: 5px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  }
+
 .inputBox {
   width: 180px;
   border-bottom: 1px solid white;
@@ -170,6 +179,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .input {
@@ -304,4 +314,17 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   
+  }
+
+
+  // .search {
+    
+  //   display: none;
+
+  // }
+
+  .ParentKeyword a {
+    text-align: left !important;
+    color: #000 !important;
+    padding: 6px 0;
   }
