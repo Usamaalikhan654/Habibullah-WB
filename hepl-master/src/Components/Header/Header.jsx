@@ -32,7 +32,7 @@ function Header() {
     {
       
       "firstname": "Machine",
-      "url":  "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
+      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
  
     },
     {
