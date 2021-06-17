@@ -13,63 +13,36 @@ function Header() {
     [
       {
         
-        "firstname": "Walter Isaacson",
-        "url":  "http://google.com"
+        "firstname": "Home",
+        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/"
  
       },
       {
 
-        "firstname": "Peter Thiel, Blake Masters",
-        "url":  "http://google.com"
+        "firstname": "About Us",
+        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/about"
         
       },
       {
        
-        "firstname": "David Thomas, Andrew Hunt",
-        "url":  "http://google.com"
+        "firstname": "Product",
+        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Product"
 
       },
       {
         
-        "firstname": "Gene Kim",
-        "url":  "http://google.com"
+        "firstname": "Machine",
+        "url":  "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
    
       },
       {
        
-        "firstname": "Chad Fowler",
-        "url":  "http://google.com"
+        "firstname": "Contact Us",
+        "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Contact"
         
-      },
-      {
-        
-        "firstname": "Nick Bilton",
-        "url":  "http://google.com"
-        
-      },
-      {
-        
-        "firstname": "Eric Schmidt, Jonathan Rosenberg",
-        "url":  "http://google.com"
- 
-      },
-      {
-        
-        "firstname": "Ashlee Vance",
-        "url":  "http://google.com"
-      },
-      {
-        
-        "firstname": "Richard P. Feynman",
-        "url":  "http://google.com"
- 
-      },
-      {
-        
-        "firstname": "Yuval Noah Harari",
-        "url":  "http://google.com"
-
       }
+
+   
     ]
 
   
