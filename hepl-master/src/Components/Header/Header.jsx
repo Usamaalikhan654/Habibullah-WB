@@ -54,6 +54,9 @@ function Header() {
      div.style.display = 'none';
    }
  }
+ const handleChange = event => {
+  setsearchTerm(event.target.value);
+};
 
   return (
     <div>
@@ -77,7 +80,8 @@ function Header() {
               <input
                 className={styles.input}
                 placeholder="Search Keyword Here"
-                onChange={(event) => {setsearchTerm(event.target.value);}}
+                // onChange={(event) => {setsearchTerm(event.target.value);}}
+                onChange={handleChange}
                 onMouseUp={() => setShowText(!showText)}
                
               />
