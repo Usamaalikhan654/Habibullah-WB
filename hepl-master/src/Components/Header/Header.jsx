@@ -77,9 +77,9 @@ function Header() {
               <input
                 className={styles.input}
                 placeholder="Search Keyword Here"
-                onChange={(event) => {setsearchTerm(event.target.value);}}
+                // onChange={(event) => {setsearchTerm(event.target.value);}}
                 onMouseUp={() => setShowText(!showText)}
-               
+                onChange={(event)=>this.setsearchTerm(event.target.value)}
               />
               <img src={searchIcon} className={styles.searchIcon} />
               {showText && 
