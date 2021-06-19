@@ -6,57 +6,49 @@ import callIcon from "../../Assets/callIcon.png";
 import searchIcon from "../../Assets/searchIcon.png";
 import menuIcon from "../../Assets/menu.png";
 import { Link } from "react-router-dom";
+import $ from "jquery";
 
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
-  const data = 
-  [
-    {
-      
-      "firstname": "Home",
-      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/"
+  const data =
+    [
+      {
 
-    },
-    {
+        "firstname": "Home",
+        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/"
 
-      "firstname": "About Us",
-      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/about"
-      
-    },
-    {
-     
-      "firstname": "Product",
-      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Product"
+      },
+      {
 
-    },
-    {
-      
-      "firstname": "Machine",
-      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
- 
-    },
-    {
-     
-      "firstname": "Contact Us",
-      "url":  "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Contact"
-      
-    }
+        "firstname": "About Us",
+        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/about"
 
- 
-  ]
+      },
+      {
 
-  
- const [searchTerm, setsearchTerm] = useState('');
- const [showText, setShowText] = useState();
- function hideDiv(id) {
-   var div = document.getElementById(id);
-   if(id !== null ) {
-     div.style.display = 'none';
-   }
- }
- const handleChange = event => {
-  setsearchTerm(event.target.value);
-};
+        "firstname": "Product",
+        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Product"
+
+      },
+      {
+
+        "firstname": "Machine",
+        "url": "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
+
+      },
+      {
+
+        "firstname": "Contact Us",
+        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Contact"
+
+      }
+
+
+    ]
+  // Shorthand for $( document ).ready()
+  const [searchTerm, setsearchTerm] = useState('');
+  const [showText, setShowText] = useState();
+
 
   return (
     <div>
@@ -75,32 +67,33 @@ function Header() {
               <img src={callIcon} className={styles.callIcon} />
               <p className={styles.boxText}>0300-011-hepl (4375)</p>
             </div>
-
+              
             <div className={styles.inputBox}>
               <input
+                id="inputkeyword"
                 className={styles.input}
                 placeholder="Search Keyword Here"
-                // onChange={(event) => {setsearchTerm(event.target.value);}}
-                onChange={handleChange}
-                onMouseUp={() => setShowText(!showText)}
-               
+                // onChange={() => {hideDiv('inputkeyword')} }
+                onChange={(event) => { setsearchTerm(event.target.value) }}
+              // onMouseUp={() => setShowText(!showText)}
+
               />
               <img src={searchIcon} className={styles.searchIcon} />
-              {showText && 
+              {/* {showText && */}
               <div className={styles.ParentKeyword} id="searchItems">
-              {data.filter((val) => {
-                if (searchTerm == ""){
-                  return val
-                } else if (val.firstname.toLowerCase().includes(searchTerm.toLowerCase())) {
-                  return val
-                }
-              }).map((val,key) => {
-                return <div className="keyword" key={key}>
-                <a href={val.url}>{val.firstname}</a>
-                </div>
-              })}
+                {data.filter((val) => {
+                  if (searchTerm == "") {
+                    return val
+                  } else if (val.firstname.toLowerCase().includes(searchTerm.toLowerCase())) {
+                    return val
+                  }
+                }).map((val, key) => {
+                  return <div className="keyword" key={key}>
+                    <a href={val.url}>{val.firstname}</a>
+                  </div>
+                })}
               </div>
-              }
+              {/* } */}
             </div>
           </div>
         </div>
@@ -127,22 +120,22 @@ function Header() {
         />
         {mobileMenu ? (
           <div className={styles.dropDown}>
-          
+
             <div className={styles.dopDownMenuBox}>
-            <Link to="/"><p className={styles.dropdownMenuItem}>HOME</p></Link>
+              <Link to="/"><p className={styles.dropdownMenuItem}>HOME</p></Link>
             </div>
-            
+
             <div className={styles.dopDownMenuBox}>
-            <Link to="/about"><p className={styles.dropdownMenuItem}>ABOUT US</p></Link>
-            </div>
-            <div className={styles.dopDownMenuBox}>
-            <Link to="/Product"><p className={styles.dropdownMenuItem}>PRODUCT LINE</p></Link>
+              <Link to="/about"><p className={styles.dropdownMenuItem}>ABOUT US</p></Link>
             </div>
             <div className={styles.dopDownMenuBox}>
-            <Link to="/Machine"><p className={styles.dropdownMenuItem}>MACHINERY AND TOOLS</p></Link>
+              <Link to="/Product"><p className={styles.dropdownMenuItem}>PRODUCT LINE</p></Link>
             </div>
             <div className={styles.dopDownMenuBox}>
-            <Link to="/Contact"><p className={styles.dropdownMenuItem}>CONTACT US</p></Link>
+              <Link to="/Machine"><p className={styles.dropdownMenuItem}>MACHINERY AND TOOLS</p></Link>
+            </div>
+            <div className={styles.dopDownMenuBox}>
+              <Link to="/Contact"><p className={styles.dropdownMenuItem}>CONTACT US</p></Link>
             </div>
           </div>
         ) : null}

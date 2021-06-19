@@ -24,11 +24,57 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>HEPL</title>
+    <title>React App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $( document ).ready(function() {
+          $("#searchItems").addClass("hideshow");
+          $('#inputkeyword').click(function() {
+            $("#searchItems").toggleClass('hideshow');
+          });
+          $(document).click(function(e) {
+            if($(e.target).is('#inputkeyword')){
+              e.preventDefault();
+              return;
+            }
+            $("#searchItems").addClass('hideshow');
+          });
+          $( "#inputkeyword" ).keyup(function() {
+            $("#searchItems").removeClass("hideshow");
+          });
+        });
+    </script>
+    <style>
+      #searchItems.hideshow {
+        display: none;
+      }
+      .keyword:after {
+        content: '';
+        width: 100%;
+        display: block;
+        height: 1px;
+        background-color: #000;
+        position: absolute;
+        left: 1px;
+      }
+
+      .keyword:nth-child(5):after{
+        display: none; 
+      }
+    </style>
   </head>
   <body style="margin: 0px; padding: 0px">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div style="margin: 0px; padding: 0px" id="root"></div>
-       
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>
