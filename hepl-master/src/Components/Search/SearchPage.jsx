@@ -110,7 +110,7 @@ class Autocomplete extends React.Component {
               type="text"
               placeholder="Type to search list"
               onChange={searchList}
-              className="input"
+              className="input-1"
               onFocus={() => this.showDropdown()}
               // onBlur={() => this.hideDropdown()}
               onClick={this.handleToggle}
