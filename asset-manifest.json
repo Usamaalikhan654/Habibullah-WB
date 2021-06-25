@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Habibullah-WB/static/css/main.fe3ab459.chunk.css",
-    "main.js": "/Habibullah-WB/static/js/main.6fb4c7e3.chunk.js",
-    "main.js.map": "/Habibullah-WB/static/js/main.6fb4c7e3.chunk.js.map",
-    "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.6b2410a2.js",
-    "runtime-main.js.map": "/Habibullah-WB/static/js/runtime-main.6b2410a2.js.map",
-    "static/js/2.ee554ad0.chunk.js": "/Habibullah-WB/static/js/2.ee554ad0.chunk.js",
-    "static/js/2.ee554ad0.chunk.js.map": "/Habibullah-WB/static/js/2.ee554ad0.chunk.js.map",
-    "static/js/3.feb9fd75.chunk.js": "/Habibullah-WB/static/js/3.feb9fd75.chunk.js",
-    "static/js/3.feb9fd75.chunk.js.map": "/Habibullah-WB/static/js/3.feb9fd75.chunk.js.map",
+    "main.css": "/Habibullah-WB/static/css/main.c5329514.chunk.css",
+    "main.js": "/Habibullah-WB/static/js/main.e86c1a95.chunk.js",
+    "main.js.map": "/Habibullah-WB/static/js/main.e86c1a95.chunk.js.map",
+    "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.01e42f8a.js",
+    "runtime-main.js.map": "/Habibullah-WB/static/js/runtime-main.01e42f8a.js.map",
+    "static/js/2.894e30d3.chunk.js": "/Habibullah-WB/static/js/2.894e30d3.chunk.js",
+    "static/js/2.894e30d3.chunk.js.map": "/Habibullah-WB/static/js/2.894e30d3.chunk.js.map",
+    "static/js/3.294d2047.chunk.js": "/Habibullah-WB/static/js/3.294d2047.chunk.js",
+    "static/js/3.294d2047.chunk.js.map": "/Habibullah-WB/static/js/3.294d2047.chunk.js.map",
     "index.html": "/Habibullah-WB/index.html",
-    "static/css/main.fe3ab459.chunk.css.map": "/Habibullah-WB/static/css/main.fe3ab459.chunk.css.map",
-    "static/js/2.ee554ad0.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.ee554ad0.chunk.js.LICENSE.txt",
+    "static/css/main.c5329514.chunk.css.map": "/Habibullah-WB/static/css/main.c5329514.chunk.css.map",
+    "static/js/2.894e30d3.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.894e30d3.chunk.js.LICENSE.txt",
     "static/media/Header.module.scss": "/Habibullah-WB/static/media/futura_medium_bt.4e762c29.ttf",
     "static/media/Group 85.49ef0148.png": "/Habibullah-WB/static/media/Group 85.49ef0148.png",
     "static/media/HEPL Website_organized.d8e0a597.pdf": "/Habibullah-WB/static/media/HEPL Website_organized.d8e0a597.pdf",
@@ -34,9 +34,9 @@
     "static/media/Splitscreen.css": "/Habibullah-WB/static/media/website-21.86d0a921.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b2410a2.js",
-    "static/js/2.ee554ad0.chunk.js",
-    "static/css/main.fe3ab459.chunk.css",
-    "static/js/main.6fb4c7e3.chunk.js"
+    "static/js/runtime-main.01e42f8a.js",
+    "static/js/2.894e30d3.chunk.js",
+    "static/css/main.c5329514.chunk.css",
+    "static/js/main.e86c1a95.chunk.js"
   ]
 }
