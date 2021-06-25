@@ -6,15 +6,27 @@ import callIcon from "../../Assets/callIcon.png";
 import searchIcon from "../../Assets/searchIcon.png";
 import menuIcon from "../../Assets/menu.png";
 import { Link } from "react-router-dom";
-import $ from "jquery";
+import SearchPage from "../Search/SearchPage";
+
 
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
+  // set value for default selection
+  // set value for default selection
+  const [selectedValue, setSelectedValue] = useState(3);
+ 
+  // handle onChange event of the dropdown
+  const handleChange = e => {
+    setSelectedValue(e.value);
+  }
+
+  
   const data =
     [
       {
 
-        "firstname": "Home",
+        "value": "Home",
+        "label": "Home",
         "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/"
 
       },
@@ -33,7 +45,7 @@ function Header() {
       {
 
         "firstname": "Machine",
-        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
+        "url": "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
 
       },
       {
@@ -49,8 +61,18 @@ function Header() {
   const [searchTerm, setsearchTerm] = useState('');
   const [showText, setShowText] = useState();
 
+  const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' }
+
+  ]
+
+
+
 
   return (
+    
     <div>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
@@ -67,34 +89,34 @@ function Header() {
               <img src={callIcon} className={styles.callIcon} />
               <p className={styles.boxText}>0300-011-hepl (4375)</p>
             </div>
-              
-            <div className={styles.inputBox}>
-              <input
-                id="inputkeyword"
-                className={styles.input}
-                placeholder="Search Keyword Here"
-                // onChange={() => {hideDiv('inputkeyword')} }
-                onChange={(event) => { setsearchTerm(event.target.value) }}
-              // onMouseUp={() => setShowText(!showText)}
+            {/* <div className={styles.inputBox}>
+        <input
+          id="inputkeyword"
+          className={styles.input}
+          placeholder="Search Keyword Here"
+          // onChange={() => {hideDiv('inputkeyword')} }
+          onChange={(event) => { setsearchTerm(event.target.value) }}
+        // onMouseUp={() => setShowText(!showText)}
 
-              />
-              <img src={searchIcon} className={styles.searchIcon} />
-              {/* {showText && */}
-              <div className={styles.ParentKeyword} id="searchItems">
-                {data.filter((val) => {
-                  if (searchTerm == "") {
-                    return val
-                  } else if (val.firstname.toLowerCase().includes(searchTerm.toLowerCase())) {
-                    return val
-                  }
-                }).map((val, key) => {
-                  return <div className="keyword" key={key}>
-                    <a href={val.url}>{val.firstname}</a>
-                  </div>
-                })}
-              </div>
-              {/* } */}
+        />
+        <img src={searchIcon} className={styles.searchIcon} />
+        {/* {showText && */}
+        {/* <div className={styles.ParentKeyword} id="searchItems">
+          {data.filter((val) => {
+            if (searchTerm == "") {
+              return val
+            } else if (val.firstname.toLowerCase().includes(searchTerm.toLowerCase())) {
+              return val
+            }
+          }).map((val, key) => {
+            return <div className="keyword" key={key}>
+              <a href={val.url}>{val.firstname}</a>
             </div>
+          })}
+        </div>
+
+      </div>  */}
+                <SearchPage/>
           </div>
         </div>
       </div>
