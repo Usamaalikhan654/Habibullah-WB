@@ -45,13 +45,7 @@ color: white;
     background-color: #fff;
 }
 
-.keyword {
-
-        width: 100%;
-        display: block;
-        height: 1px;
-       color: #000;
-        position: absolute;
-        left: 1px;
-
-}
+.keyword a {
+    color: #000;
+    padding-top: 10px;
+    }
