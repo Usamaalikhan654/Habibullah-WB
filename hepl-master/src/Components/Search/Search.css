@@ -38,3 +38,10 @@ color: white;
 .autocomplete {
     position: relative;
 }
+
+.autocomplete-search-results-list {
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: #fff;
+    
+}
