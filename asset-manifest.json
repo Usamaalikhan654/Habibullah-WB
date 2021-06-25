@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Habibullah-WB/static/css/main.7f35421c.chunk.css",
+    "main.css": "/Habibullah-WB/static/css/main.08079245.chunk.css",
     "main.js": "/Habibullah-WB/static/js/main.99b22098.chunk.js",
     "main.js.map": "/Habibullah-WB/static/js/main.99b22098.chunk.js.map",
     "runtime-main.js": "/Habibullah-WB/static/js/runtime-main.fe753b98.js",
@@ -10,7 +10,7 @@
     "static/js/3.6ad1322c.chunk.js": "/Habibullah-WB/static/js/3.6ad1322c.chunk.js",
     "static/js/3.6ad1322c.chunk.js.map": "/Habibullah-WB/static/js/3.6ad1322c.chunk.js.map",
     "index.html": "/Habibullah-WB/index.html",
-    "static/css/main.7f35421c.chunk.css.map": "/Habibullah-WB/static/css/main.7f35421c.chunk.css.map",
+    "static/css/main.08079245.chunk.css.map": "/Habibullah-WB/static/css/main.08079245.chunk.css.map",
     "static/js/2.605cbebf.chunk.js.LICENSE.txt": "/Habibullah-WB/static/js/2.605cbebf.chunk.js.LICENSE.txt",
     "static/media/Header.module.scss": "/Habibullah-WB/static/media/futura_medium_bt.4e762c29.ttf",
     "static/media/Group 85.49ef0148.png": "/Habibullah-WB/static/media/Group 85.49ef0148.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.fe753b98.js",
     "static/js/2.605cbebf.chunk.js",
-    "static/css/main.7f35421c.chunk.css",
+    "static/css/main.08079245.chunk.css",
     "static/js/main.99b22098.chunk.js"
   ]
 }
