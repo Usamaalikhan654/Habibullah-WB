@@ -43,5 +43,15 @@ color: white;
     padding-left: 15px;
     padding-top: 20px;
     background-color: #fff;
-    
+}
+
+.keyword {
+
+        width: 100%;
+        display: block;
+        height: 1px;
+       color: #000;
+        position: absolute;
+        left: 1px;
+
 }

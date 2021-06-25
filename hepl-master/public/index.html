@@ -27,41 +27,9 @@
     <title>HEPL</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-        $( document ).ready(function() {
-          $("#searchItems").addClass("hideshow");
-          $('#inputkeyword').click(function() {
-            $("#searchItems").toggleClass('hideshow');
-          });
-          $(document).click(function(e) {
-            if($(e.target).is('#inputkeyword')){
-              e.preventDefault();
-              return;
-            }
-            $("#searchItems").addClass('hideshow');
-          });
-          $( "#inputkeyword" ).keyup(function() {
-            $("#searchItems").removeClass("hideshow");
-          });
-        });
-    </script>
-    <style>
-      #searchItems.hideshow {
-        display: none;
-      }
-      .keyword:after {
-        content: '';
-        width: 100%;
-        display: block;
-        height: 1px;
-        background-color: #000;
-        position: absolute;
-        left: 1px;
-      }
 
-      .keyword:nth-child(5):after{
-        display: none; 
-      }
+    
+
     </style>
   </head>
   <body style="margin: 0px; padding: 0px">
