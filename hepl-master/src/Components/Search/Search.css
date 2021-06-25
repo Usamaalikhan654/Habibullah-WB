@@ -5,3 +5,11 @@
 .hideshow {
     display: none;
 }
+
+.input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 13px;
+}

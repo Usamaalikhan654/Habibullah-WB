@@ -15,58 +15,12 @@ function Header() {
   // set value for default selection
   const [selectedValue, setSelectedValue] = useState(3);
  
-  // handle onChange event of the dropdown
-  const handleChange = e => {
-    setSelectedValue(e.value);
-  }
 
-  
-  const data =
-    [
-      {
-
-        "value": "Home",
-        "label": "Home",
-        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/"
-
-      },
-      {
-
-        "firstname": "About Us",
-        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/about"
-
-      },
-      {
-
-        "firstname": "Product",
-        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Product"
-
-      },
-      {
-
-        "firstname": "Machine",
-        "url": "http://https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Machine"
-
-      },
-      {
-
-        "firstname": "Contact Us",
-        "url": "https://usamaalikhan654.github.io/Habibullah-WB/#/Habibullah-WB/Contact"
-
-      }
-
-
-    ]
   // Shorthand for $( document ).ready()
   const [searchTerm, setsearchTerm] = useState('');
   const [showText, setShowText] = useState();
 
-  const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
 
-  ]
 
 
 
