@@ -45,6 +45,6 @@ color: white;
     background-color: #fff;    padding-top: 20px;
 }
 
-.keyword a{
+.autocomplete-search-results-list .keyword a {
     color: black;
-    }
+}
