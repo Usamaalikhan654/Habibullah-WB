@@ -125,7 +125,7 @@ class Autocomplete extends React.Component {
               onKeyDown={this.handlekeydown}
               onKeyUp={this.handleLoginKeyUp} ref="Search"
             />
-             <img src={searchIcon} />
+             <img src={searchIcon} className="searchIcon" />
             {this.state.dropdownVisible && (
               <div
                 id="appelement"

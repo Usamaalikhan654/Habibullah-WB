@@ -50,3 +50,9 @@ color: white;
     padding-top: 9px;
     padding-bottom: 6px;
 }
+
+.searchIcon {
+    width: 15px;
+    height: 15px;
+    color: white;
+  }
