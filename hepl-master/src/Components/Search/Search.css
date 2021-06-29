@@ -47,4 +47,6 @@ color: white;
 
 .autocomplete-search-results-list .keyword a {
     color: black;
+    padding-top: 9px;
+    padding-bottom: 6px;
 }
