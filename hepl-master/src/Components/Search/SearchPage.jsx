@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './Search.css';
-
+import searchIcon from "../../Assets/searchIcon.png";
 
 class SearchSelect extends React.Component {
   constructor(props) {
@@ -125,6 +125,7 @@ class Autocomplete extends React.Component {
               onKeyDown={this.handlekeydown}
               onKeyUp={this.handleLoginKeyUp} ref="Search"
             />
+             <img src={searchIcon} />
             {this.state.dropdownVisible && (
               <div
                 id="appelement"
