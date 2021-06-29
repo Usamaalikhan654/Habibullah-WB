@@ -122,6 +122,7 @@ class Autocomplete extends React.Component {
               onFocus={() => this.showDropdown()}
               // onBlur={() => this.hideDropdown()}
               onClick={this.handleToggle}
+              onKeyDown={this.handlekeydown}
               onKeyUp={this.handleLoginKeyUp} ref="Search"
             />
             {this.state.dropdownVisible && (
