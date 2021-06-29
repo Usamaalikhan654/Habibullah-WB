@@ -96,7 +96,15 @@ class Autocomplete extends React.Component {
       console.log(refName);
       this.setState({ isActive: true });
   }
-
+  handlekeydown = (e) => {
+    if (e.key === 'Enter') {
+      let elementnum = document.querySelectorAll('.autocomplete-search-results-list .keyword').length;
+      if (elementnum === 1) {
+          var path = document.querySelector('.searchlink').href;
+          window.location.href = '' + path + ''; 
+      }
+    }
+  }
   render() {
     const isActive = this.state.isActive;
     return (
@@ -125,7 +133,7 @@ class Autocomplete extends React.Component {
                   {results.map((results, key) => {
                     return (
                       <div className="keyword" key={key}>
-                        <a href={results.url}>{results.firstname}</a>
+                        <a className="searchlink" href={results.url}>{results.firstname}</a>
                       </div>
                     );
                   })}
