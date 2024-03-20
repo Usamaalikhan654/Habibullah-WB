@@ -186,7 +186,7 @@ import Axios from 'axios';
            </div>
        
          <div className="maps">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.407828025631!2d67.00469811454944!3d24.84991698405884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5d10af36ab%3A0xd183395c3d14a978!2sHabibullah%20Engineering%20(Pvt)%20Limited!5e0!3m2!1sen!2s!4v1622723195884!5m2!1sen!2s" style={{width:"100%"},{height:"608px"}}></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.407828025631!2d67.00469811454944!3d24.84991698405884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5d10af36ab%3A0xd183395c3d14a978!2sHabibullah%20Engineering%20(Pvt)%20Limited!5e0!3m2!1sen!2s!4v1622723195884!5m2!1sen!2s" style={{width:"100%",height:"608px"}}></iframe>
          </div>
     </div>
     )
